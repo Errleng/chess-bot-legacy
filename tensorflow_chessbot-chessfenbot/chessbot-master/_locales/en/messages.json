@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Chess by Panda",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Credits to Panda",
+    "description": "The description of the application"
+  },
+  "appShortName": {
+    "message": "Chess by Panda",
+    "description": "The short name of the application"
+  }
+}

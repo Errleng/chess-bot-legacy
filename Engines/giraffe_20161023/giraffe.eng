@@ -1,0 +1,7 @@
+[ENGINE]
+Name=Giraffe w64
+Author=Matthew Lai
+Filename=giraffe_uci.exe
+
+[OPTIONS]
+Program=C:\Users\Recursor\Desktop\BACKUP\Engines\giraffe_20161023\giraffe_w64.exe
