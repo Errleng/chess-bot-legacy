@@ -702,12 +702,12 @@ try:
         HalfTwo = bestMove[2:4]
 
         pinkTop = 155 + (boardHeight - pieceHeight * int(HalfOne[1])) + 25
-        pinkLeft = 167 + pieceWidth * (ord(HalfOne[0]) - 97) + 10
+        pinkLeft = 167 + pieceWidth * (ord(HalfOne[0]) - 97) + 25
 
         print(pinkLeft, pinkTop)
 
         greenTop = 155 + (boardHeight - pieceHeight * int(HalfTwo[1])) + 25
-        greenLeft = 167 + pieceWidth * (ord(HalfTwo[0]) - 97) + 10
+        greenLeft = 167 + pieceWidth * (ord(HalfTwo[0]) - 97) + 25
 
         # print(greenLeft, greenTop)
         print("Time to calculate move:", time.time() - startTime)
