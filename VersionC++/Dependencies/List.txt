@@ -1,0 +1,4 @@
+Name	Version
+
+CMake	3.10.0
+OpenCV	3.3.1
