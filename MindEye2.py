@@ -19,12 +19,7 @@ SAVE_PATH = "C:/Users/aisae/Documents/GitHub/pythonBoots/Screenshots/"
 # ImageGrab.grab().save(SAVE_PATH + "ChessShot.jpg", "JPEG")
 # print("SAVED SCREENSHOT")
 
-splitCoordTopLeft = (282, 154)
-splitCoordBottomRight = (1099, 971)
-
 img = Image.open(SAVE_PATH + "ChessShot.jpg")
-
-prevPt = (0, 0)
 
 def rgbTemplateMatch(templatePath, img):
     global max_Val

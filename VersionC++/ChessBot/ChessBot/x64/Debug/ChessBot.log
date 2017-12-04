@@ -1,0 +1,17 @@
+﻿  ChessBot.cpp
+c:\users\aisae\documents\sourcetree\chessbot\versionc++\chessbot\chessbot\chessbot.cpp(28): warning C4129: 'D': unrecognized character escape sequence
+c:\users\aisae\documents\sourcetree\chessbot\versionc++\chessbot\chessbot\chessbot.cpp(28): warning C4129: 'S': unrecognized character escape sequence
+c:\users\aisae\documents\sourcetree\chessbot\versionc++\chessbot\chessbot\chessbot.cpp(28): warning C4129: 'C': unrecognized character escape sequence
+c:\users\aisae\documents\sourcetree\chessbot\versionc++\chessbot\chessbot\chessbot.cpp(48): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\aisae\documents\sourcetree\chessbot\versionc++\chessbot\chessbot\chessbot.cpp(61): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\aisae\documents\sourcetree\chessbot\versionc++\chessbot\chessbot\chessbot.cpp(265): warning C4101: 'squareCount': unreferenced local variable
+c:\users\aisae\documents\sourcetree\chessbot\versionc++\chessbot\chessbot\chessbot.cpp(266): warning C4101: 'slashCount': unreferenced local variable
+c:\users\aisae\documents\sourcetree\chessbot\versionc++\chessbot\chessbot\chessbot.cpp(264): warning C4101: 'emptyNum': unreferenced local variable
+c:\users\aisae\documents\sourcetree\chessbot\versionc++\chessbot\chessbot\chessbot.cpp(404): error C2065: 'GWL_HINSTANCE': undeclared identifier
+c:\users\aisae\documents\sourcetree\chessbot\versionc++\chessbot\chessbot\chessbot.cpp(415): error C2660: 'CreateWindowExW': function does not take 11 arguments
+c:\users\aisae\documents\sourcetree\chessbot\versionc++\chessbot\chessbot\chessbot.cpp(417): error C2065: 'GWL_HINSTANCE': undeclared identifier
+c:\users\aisae\documents\sourcetree\chessbot\versionc++\chessbot\chessbot\chessbot.cpp(428): error C2660: 'CreateWindowExW': function does not take 11 arguments
+c:\users\aisae\documents\sourcetree\chessbot\versionc++\chessbot\chessbot\chessbot.cpp(430): error C2065: 'GWL_HINSTANCE': undeclared identifier
+c:\users\aisae\documents\sourcetree\chessbot\versionc++\chessbot\chessbot\chessbot.cpp(441): error C2660: 'CreateWindowExW': function does not take 11 arguments
+c:\users\aisae\documents\sourcetree\chessbot\versionc++\chessbot\chessbot\chessbot.cpp(443): error C2065: 'GWL_HINSTANCE': undeclared identifier
+c:\users\aisae\documents\sourcetree\chessbot\versionc++\chessbot\chessbot\chessbot.cpp(454): error C2660: 'CreateWindowExW': function does not take 11 arguments
