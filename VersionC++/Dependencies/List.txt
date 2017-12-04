@@ -1,4 +1,4 @@
 Name	Version
 
-CMake	3.10.0
-OpenCV	3.3.1
+CMake	3.10.0	
+OpenCV	3.3.1	https://stackoverflow.com/questions/43786856/how-to-can-i-install-configure-opencv3-2-0-with-visual-studio-2017
