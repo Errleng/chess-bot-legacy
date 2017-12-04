@@ -168,12 +168,12 @@ try:
         resized_crop_black = imutils.resize(cropped_color_black, width=27)
         # cv2.imshow('Resized Cropped Black', resized_crop_black)
         # cv2.waitKey(0)
-        Image.fromarray(resized_crop_black, 'RGB').save(SAVE_PATH + 'croppedBlack.jpg')
+        # Image.fromarray(resized_crop_black, 'RGB').save(SAVE_PATH + 'croppedBlack.jpg')
 
         resized_crop_white = imutils.resize(cropped_color_white, width=27)
         # cv2.imshow('Resized Cropped White', resized_crop_white)
         # cv2.waitKey(0)
-        Image.fromarray(resized_crop_white, 'RGB').save(SAVE_PATH + 'croppedWhite.jpg')
+        # Image.fromarray(resized_crop_white, 'RGB').save(SAVE_PATH + 'croppedWhite.jpg')
 
         returnBlack = rgbImgTM(resized_crop_black, SAVE_PATH + 'BlackTimer.jpg')
         returnWhite = rgbImgTM(resized_crop_white, SAVE_PATH + 'WhiteTimer.jpg')
