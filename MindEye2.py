@@ -117,6 +117,8 @@ print("Initiated")
 widthArray = [1, 2, 3, 4, 5, 6, 7, 8]
 lengthArray = widthArray
 
+#Offset for resize 126 : 25
+#Suggest changing 660 to 685 for higher consistency
 box = (157, 156,  685, 660)
 
 crop_img = np.array(ImageGrab.grab(bbox = box))
