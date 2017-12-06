@@ -95,12 +95,12 @@ boardHeight = 504
 pieceHeight = 504/8
 pieceWidth = 504/8
 
-enginePath = 'C:/Users/aisae/Desktop/Engines/'
+enginePath = 'C:\\Users\\aisae\\Desktop\\Hold\\Engines\\'
 
-# engine = chess.uci.popen_engine(enginePath + 'stockfish-8-win/Windows/stockfish_8_x64.exe')
+engine = chess.uci.popen_engine(enginePath + 'stockfish-8-win/Windows/stockfish_8_x64.exe')
 # engine = chess.uci.popen_engine(enginePath + 'Rybkav2.3.2a.mp.x64.exe')
 # engine = chess.uci.popen_engine(enginePath + 'Spike/Spike1.4.exe')
-engine = chess.uci.popen_engine(enginePath + 'naum.exe')
+# engine = chess.uci.popen_engine(enginePath + 'naum.exe')
 
 print('Engine opened')
 
@@ -648,6 +648,8 @@ try:
 
         # continue
 
+        time.sleep(random.randint(0, 100) / 100)
+
         try:
             move2 = str(handler.info['pv'][2][0])
             move3 = str(handler.info['pv'][3][0])
@@ -661,7 +663,7 @@ try:
             print("Move1:", bestMove, "Move2:", move2, "Move3:", move3)
             print("Score1:", score, "Score2:", score2, "Score3:", score3)
 
-            if abs(abs(score) - abs(score2)) > 100 or abs(abs(score2) - abs(score3)) > 100:
+            if abs(abs(score) - abs(score2)) >= 100 or abs(abs(score2) - abs(score3)) >= 100:
                 print("Found Obvious Move")
             else:
                 if 10 < movecount < 30:
@@ -717,7 +719,7 @@ try:
 
         # time.sleep(0.1)
         # pyautogui.moveTo(greenLeft,greenTop,0.001)
-        time.sleep(0.05)
+        time.sleep(0.25)
 
         clickUp(int(greenLeft), int(greenTop))
 
