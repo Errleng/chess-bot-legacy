@@ -109,7 +109,7 @@ for file in os.listdir(SAVE_PATH + "AllPieces"):
     if filename.endswith(".png"):
         templateList.append(filename)
 
-enginePath = 'C:\\Users\\aisae\\Desktop\\Hold\\Engines\\'
+enginePath = 'C:\\Users\\aisae\\Desktop\\Desktop\\Hold\\Engines\\'
 
 # engine = chess.uci.popen_engine(enginePath + 'stockfish-8-win/Windows/stockfish_8_x64.exe')
 # engine = chess.uci.popen_engine(enginePath + 'Rybkav2.3.2a.mp.x64.exe')
@@ -134,7 +134,7 @@ lengthArray = widthArray
 #Offset for resize 126 : 25
 #Suggest changing 660 to 685 for higher consistency
 #Old value was (157, 156, 685, 660)
-box = (157, 156,  685, 660)
+box = (160, 155,  690, 660)
 
 crop_img = np.array(ImageGrab.grab(bbox = box))
 resized_crop_img = imutils.resize(crop_img, width = 126)
@@ -171,11 +171,11 @@ try:
         startTime = time.time()
         # ImageGrab.grab(bbox=(535, 105, 600, 140)).save(SAVE_PATH + 'croppedBlack.jpg')
         # ImageGrab.grab(bbox=(535, 670, 600, 710)).save(SAVE_PATH + 'croppedWhite.jpg')
-        cropped_color_black = np.array(ImageGrab.grab(bbox = (535, 105, 600, 140)))
+        cropped_color_black = np.array(ImageGrab.grab(bbox = (540, 105, 575, 140)))
         # cropped_color_black = cv2.imread(SAVE_PATH + 'croppedBlack.jpg')
         # cv2.imshow('Cropped', cropped_color_black)
         # cv2.waitKey(0)
-        cropped_color_white = np.array(ImageGrab.grab(bbox = (535, 670, 600, 710)))
+        cropped_color_white = np.array(ImageGrab.grab(bbox = (540, 670, 575, 710)))
         # cropped_color_white = cv2.imread(SAVE_PATH + 'croppedWhite.jpg')
         # cv2.imshow('Cropped', cropped_color_white)
         # cv2.waitKey(0)
@@ -703,7 +703,7 @@ try:
         Depth = engine.go(depth = random.randint(6, 8))
         bestMove = str(Depth[0])
         print('Best Move', bestMove)
-
+        print("Time to calculate move:", time.time() - startTime)
         # continue
 
         if difficulty == 1:
@@ -771,7 +771,7 @@ try:
         greenLeft = 167 + pieceWidth * (ord(HalfTwo[0]) - 97) + 25
 
         # print(greenLeft, greenTop)
-        print("Time to calculate move:", time.time() - startTime)
+        print("Time to fix move:", time.time() - startTime)
         # pyautogui.moveTo(pinkLeft, pinkTop, 0.001)
         # time.sleep(0.1)
 
