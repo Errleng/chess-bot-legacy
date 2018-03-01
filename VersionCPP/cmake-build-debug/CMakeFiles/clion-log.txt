@@ -1,0 +1,5 @@
+"D:\Applications\CLion 2017.3.3\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/Applications/MinGW-64/mingw64/bin/mingw32-make.exe -DCMAKE_C_COMPILER=D:/Applications/MinGW-64/mingw64/bin/gcc.exe -DCMAKE_CXX_COMPILER=D:/Applications/MinGW-64/mingw64/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" D:\Documents\SourceTree\ChessBot\VersionCPP
+-- Found OpenCV: D:/Documents/Code/Dependencies/opencv-3.4.1-build (found version "3.4.1") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Documents/SourceTree/ChessBot/VersionCPP/cmake-build-debug
