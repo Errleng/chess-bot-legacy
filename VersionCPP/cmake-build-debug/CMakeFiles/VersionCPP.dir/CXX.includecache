@@ -950,6 +950,10 @@ D:/Documents/Code/Dependencies/opencv-3.4.1/modules/imgproc/include/opencv2/open
 opencv2/imgproc/imgproc_c.h
 D:/Documents/Code/Dependencies/opencv-3.4.1/modules/imgproc/include/opencv2/opencv2/imgproc/imgproc_c.h
 
+D:/Documents/Code/Dependencies/opencv-3.4.1/modules/imgproc/include/opencv2/imgproc/imgproc.hpp
+opencv2/imgproc.hpp
+D:/Documents/Code/Dependencies/opencv-3.4.1/modules/imgproc/include/opencv2/imgproc/opencv2/imgproc.hpp
+
 D:/Documents/Code/Dependencies/opencv-3.4.1/modules/imgproc/include/opencv2/imgproc/imgproc_c.h
 opencv2/imgproc/types_c.h
 D:/Documents/Code/Dependencies/opencv-3.4.1/modules/imgproc/include/opencv2/imgproc/opencv2/imgproc/types_c.h
@@ -1332,5 +1336,11 @@ iostream
 opencv2/core/core.hpp
 -
 opencv2/highgui/highgui.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+windows.h
+-
+chrono
 -
 
