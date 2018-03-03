@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1F9F0B82-5981-3461-B6AF-1A52FD484E79}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ChessBot</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ChessBot.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ChessBot</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ChessBot.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ChessBot</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ChessBot.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ChessBot</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ChessBot.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ChessBot</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default;D:\Documents\SourceTree\ChessBot\VersionCpp\ChessBot;D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\ChessBot_autogen\include_Debug;D:\Applications\QT\5.10.1\msvc2017_64\include;D:\Applications\QT\5.10.1\msvc2017_64\include\QtCore;D:\Applications\QT\5.10.1\msvc2017_64\.\mkspecs\win32-msvc;D:\Documents\Code\Dependencies\opencv-3.4.1-build;D:\Documents\Code\Dependencies\opencv-3.4.1\include;D:\Documents\Code\Dependencies\opencv-3.4.1\include\opencv;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\core\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\flann\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\imgproc\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\ml\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\objdetect\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\photo\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\video\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\dnn\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\imgcodecs\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\shape\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\videoio\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\highgui\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\superres\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\ts\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\features2d\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\calib3d\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\stitching\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;QT_CORE_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;QT_CORE_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default;D:\Documents\SourceTree\ChessBot\VersionCpp\ChessBot;D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\ChessBot_autogen\include_Debug;D:\Applications\QT\5.10.1\msvc2017_64\include;D:\Applications\QT\5.10.1\msvc2017_64\include\QtCore;D:\Applications\QT\5.10.1\msvc2017_64\.\mkspecs\win32-msvc;D:\Documents\Code\Dependencies\opencv-3.4.1-build;D:\Documents\Code\Dependencies\opencv-3.4.1\include;D:\Documents\Code\Dependencies\opencv-3.4.1\include\opencv;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\core\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\flann\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\imgproc\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\ml\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\objdetect\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\photo\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\video\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\dnn\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\imgcodecs\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\shape\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\videoio\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\highgui\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\superres\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\ts\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\features2d\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\calib3d\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\stitching\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default;D:\Documents\SourceTree\ChessBot\VersionCpp\ChessBot;D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\ChessBot_autogen\include_Debug;D:\Applications\QT\5.10.1\msvc2017_64\include;D:\Applications\QT\5.10.1\msvc2017_64\include\QtCore;D:\Applications\QT\5.10.1\msvc2017_64\.\mkspecs\win32-msvc;D:\Documents\Code\Dependencies\opencv-3.4.1-build;D:\Documents\Code\Dependencies\opencv-3.4.1\include;D:\Documents\Code\Dependencies\opencv-3.4.1\include\opencv;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\core\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\flann\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\imgproc\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\ml\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\objdetect\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\photo\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\video\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\dnn\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\imgcodecs\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\shape\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\videoio\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\highgui\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\superres\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\ts\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\features2d\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\calib3d\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\stitching\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target ChessBot</Message>
+      <Command>setlocal
+cd D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Applications\CMake\bin\cmake.exe -E cmake_autogen D:/Documents/SourceTree/ChessBot/VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/ChessBot_autogen.dir/AutogenInfo.cmake Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\Applications\QT\5.10.1\msvc2017_64\lib\Qt5Cored.lib;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_dnn341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_ml341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_objdetect341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_shape341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_stitching341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_superres341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_videostab341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_calib3d341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_features2d341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_flann341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_highgui341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_photo341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_video341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_videoio341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_imgcodecs341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_imgproc341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_core341.dll.a;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Documents/SourceTree/ChessBot/VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/Debug/ChessBot.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Documents/SourceTree/ChessBot/VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/Debug/ChessBot.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default;D:\Documents\SourceTree\ChessBot\VersionCpp\ChessBot;D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\ChessBot_autogen\include_Release;D:\Applications\QT\5.10.1\msvc2017_64\include;D:\Applications\QT\5.10.1\msvc2017_64\include\QtCore;D:\Applications\QT\5.10.1\msvc2017_64\.\mkspecs\win32-msvc;D:\Documents\Code\Dependencies\opencv-3.4.1-build;D:\Documents\Code\Dependencies\opencv-3.4.1\include;D:\Documents\Code\Dependencies\opencv-3.4.1\include\opencv;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\core\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\flann\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\imgproc\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\ml\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\objdetect\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\photo\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\video\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\dnn\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\imgcodecs\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\shape\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\videoio\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\highgui\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\superres\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\ts\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\features2d\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\calib3d\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\stitching\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default;D:\Documents\SourceTree\ChessBot\VersionCpp\ChessBot;D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\ChessBot_autogen\include_Release;D:\Applications\QT\5.10.1\msvc2017_64\include;D:\Applications\QT\5.10.1\msvc2017_64\include\QtCore;D:\Applications\QT\5.10.1\msvc2017_64\.\mkspecs\win32-msvc;D:\Documents\Code\Dependencies\opencv-3.4.1-build;D:\Documents\Code\Dependencies\opencv-3.4.1\include;D:\Documents\Code\Dependencies\opencv-3.4.1\include\opencv;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\core\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\flann\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\imgproc\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\ml\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\objdetect\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\photo\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\video\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\dnn\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\imgcodecs\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\shape\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\videoio\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\highgui\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\superres\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\ts\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\features2d\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\calib3d\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\stitching\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default;D:\Documents\SourceTree\ChessBot\VersionCpp\ChessBot;D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\ChessBot_autogen\include_Release;D:\Applications\QT\5.10.1\msvc2017_64\include;D:\Applications\QT\5.10.1\msvc2017_64\include\QtCore;D:\Applications\QT\5.10.1\msvc2017_64\.\mkspecs\win32-msvc;D:\Documents\Code\Dependencies\opencv-3.4.1-build;D:\Documents\Code\Dependencies\opencv-3.4.1\include;D:\Documents\Code\Dependencies\opencv-3.4.1\include\opencv;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\core\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\flann\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\imgproc\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\ml\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\objdetect\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\photo\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\video\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\dnn\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\imgcodecs\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\shape\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\videoio\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\highgui\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\superres\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\ts\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\features2d\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\calib3d\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\stitching\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target ChessBot</Message>
+      <Command>setlocal
+cd D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Applications\CMake\bin\cmake.exe -E cmake_autogen D:/Documents/SourceTree/ChessBot/VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/ChessBot_autogen.dir/AutogenInfo.cmake Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\Applications\QT\5.10.1\msvc2017_64\lib\Qt5Core.lib;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_dnn341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_ml341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_objdetect341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_shape341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_stitching341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_superres341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_videostab341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_calib3d341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_features2d341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_flann341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_highgui341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_photo341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_video341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_videoio341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_imgcodecs341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_imgproc341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_core341.dll.a;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Documents/SourceTree/ChessBot/VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/Release/ChessBot.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Documents/SourceTree/ChessBot/VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/Release/ChessBot.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default;D:\Documents\SourceTree\ChessBot\VersionCpp\ChessBot;D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\ChessBot_autogen\include_MinSizeRel;D:\Applications\QT\5.10.1\msvc2017_64\include;D:\Applications\QT\5.10.1\msvc2017_64\include\QtCore;D:\Applications\QT\5.10.1\msvc2017_64\.\mkspecs\win32-msvc;D:\Documents\Code\Dependencies\opencv-3.4.1-build;D:\Documents\Code\Dependencies\opencv-3.4.1\include;D:\Documents\Code\Dependencies\opencv-3.4.1\include\opencv;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\core\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\flann\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\imgproc\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\ml\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\objdetect\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\photo\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\video\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\dnn\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\imgcodecs\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\shape\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\videoio\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\highgui\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\superres\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\ts\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\features2d\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\calib3d\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\stitching\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default;D:\Documents\SourceTree\ChessBot\VersionCpp\ChessBot;D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\ChessBot_autogen\include_MinSizeRel;D:\Applications\QT\5.10.1\msvc2017_64\include;D:\Applications\QT\5.10.1\msvc2017_64\include\QtCore;D:\Applications\QT\5.10.1\msvc2017_64\.\mkspecs\win32-msvc;D:\Documents\Code\Dependencies\opencv-3.4.1-build;D:\Documents\Code\Dependencies\opencv-3.4.1\include;D:\Documents\Code\Dependencies\opencv-3.4.1\include\opencv;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\core\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\flann\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\imgproc\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\ml\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\objdetect\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\photo\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\video\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\dnn\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\imgcodecs\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\shape\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\videoio\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\highgui\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\superres\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\ts\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\features2d\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\calib3d\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\stitching\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default;D:\Documents\SourceTree\ChessBot\VersionCpp\ChessBot;D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\ChessBot_autogen\include_MinSizeRel;D:\Applications\QT\5.10.1\msvc2017_64\include;D:\Applications\QT\5.10.1\msvc2017_64\include\QtCore;D:\Applications\QT\5.10.1\msvc2017_64\.\mkspecs\win32-msvc;D:\Documents\Code\Dependencies\opencv-3.4.1-build;D:\Documents\Code\Dependencies\opencv-3.4.1\include;D:\Documents\Code\Dependencies\opencv-3.4.1\include\opencv;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\core\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\flann\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\imgproc\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\ml\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\objdetect\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\photo\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\video\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\dnn\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\imgcodecs\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\shape\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\videoio\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\highgui\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\superres\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\ts\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\features2d\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\calib3d\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\stitching\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target ChessBot</Message>
+      <Command>setlocal
+cd D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Applications\CMake\bin\cmake.exe -E cmake_autogen D:/Documents/SourceTree/ChessBot/VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/ChessBot_autogen.dir/AutogenInfo.cmake MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\Applications\QT\5.10.1\msvc2017_64\lib\Qt5Core.lib;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_dnn341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_ml341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_objdetect341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_shape341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_stitching341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_superres341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_videostab341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_calib3d341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_features2d341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_flann341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_highgui341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_photo341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_video341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_videoio341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_imgcodecs341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_imgproc341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_core341.dll.a;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Documents/SourceTree/ChessBot/VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/MinSizeRel/ChessBot.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Documents/SourceTree/ChessBot/VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/MinSizeRel/ChessBot.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default;D:\Documents\SourceTree\ChessBot\VersionCpp\ChessBot;D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\ChessBot_autogen\include_RelWithDebInfo;D:\Applications\QT\5.10.1\msvc2017_64\include;D:\Applications\QT\5.10.1\msvc2017_64\include\QtCore;D:\Applications\QT\5.10.1\msvc2017_64\.\mkspecs\win32-msvc;D:\Documents\Code\Dependencies\opencv-3.4.1-build;D:\Documents\Code\Dependencies\opencv-3.4.1\include;D:\Documents\Code\Dependencies\opencv-3.4.1\include\opencv;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\core\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\flann\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\imgproc\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\ml\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\objdetect\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\photo\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\video\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\dnn\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\imgcodecs\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\shape\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\videoio\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\highgui\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\superres\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\ts\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\features2d\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\calib3d\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\stitching\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default;D:\Documents\SourceTree\ChessBot\VersionCpp\ChessBot;D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\ChessBot_autogen\include_RelWithDebInfo;D:\Applications\QT\5.10.1\msvc2017_64\include;D:\Applications\QT\5.10.1\msvc2017_64\include\QtCore;D:\Applications\QT\5.10.1\msvc2017_64\.\mkspecs\win32-msvc;D:\Documents\Code\Dependencies\opencv-3.4.1-build;D:\Documents\Code\Dependencies\opencv-3.4.1\include;D:\Documents\Code\Dependencies\opencv-3.4.1\include\opencv;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\core\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\flann\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\imgproc\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\ml\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\objdetect\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\photo\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\video\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\dnn\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\imgcodecs\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\shape\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\videoio\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\highgui\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\superres\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\ts\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\features2d\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\calib3d\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\stitching\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default;D:\Documents\SourceTree\ChessBot\VersionCpp\ChessBot;D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\ChessBot_autogen\include_RelWithDebInfo;D:\Applications\QT\5.10.1\msvc2017_64\include;D:\Applications\QT\5.10.1\msvc2017_64\include\QtCore;D:\Applications\QT\5.10.1\msvc2017_64\.\mkspecs\win32-msvc;D:\Documents\Code\Dependencies\opencv-3.4.1-build;D:\Documents\Code\Dependencies\opencv-3.4.1\include;D:\Documents\Code\Dependencies\opencv-3.4.1\include\opencv;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\core\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\flann\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\imgproc\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\ml\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\objdetect\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\photo\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\video\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\dnn\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\imgcodecs\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\shape\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\videoio\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\highgui\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\superres\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\ts\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\features2d\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\calib3d\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\stitching\include;D:\Documents\Code\Dependencies\opencv-3.4.1\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target ChessBot</Message>
+      <Command>setlocal
+cd D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Applications\CMake\bin\cmake.exe -E cmake_autogen D:/Documents/SourceTree/ChessBot/VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/ChessBot_autogen.dir/AutogenInfo.cmake RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\Applications\QT\5.10.1\msvc2017_64\lib\Qt5Core.lib;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_dnn341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_ml341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_objdetect341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_shape341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_stitching341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_superres341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_videostab341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_calib3d341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_features2d341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_flann341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_highgui341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_photo341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_video341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_videoio341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_imgcodecs341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_imgproc341.dll.a;D:\Documents\Code\Dependencies\opencv-3.4.1-build\lib\libopencv_core341.dll.a;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Documents/SourceTree/ChessBot/VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/RelWithDebInfo/ChessBot.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Documents/SourceTree/ChessBot/VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/RelWithDebInfo/ChessBot.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents\SourceTree\ChessBot\VersionCpp\ChessBot\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Documents/SourceTree/ChessBot/VersionCpp/ChessBot/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Applications\CMake\bin\cmake.exe -HD:/Documents/SourceTree/ChessBot/VersionCpp/ChessBot -BD:/Documents/SourceTree/ChessBot/VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default --check-stamp-file D:/Documents/SourceTree/ChessBot/VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Documents/SourceTree/ChessBot/VersionCpp/ChessBot/CMakeLists.txt;D:\Documents\SourceTree\ChessBot\VersionCpp\ChessBot\CMakeLists.txt;D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\CMakeFiles\3.11.0-rc2\CMakeSystem.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\CMakeFiles\3.11.0-rc2\CMakeCCompiler.cmake;D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\CMakeFiles\3.11.0-rc2\CMakeCXXCompiler.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\CMakeFiles\3.11.0-rc2\CMakeRCCompiler.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\Applications\QT\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Applications\QT\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Applications\QT\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\Applications\QT\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\Applications\QT\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;D:\Documents\Code\Dependencies\opencv-3.4.1-build\OpenCVConfig-version.cmake;D:\Documents\Code\Dependencies\opencv-3.4.1-build\OpenCVConfig.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;D:\Documents\Code\Dependencies\opencv-3.4.1-build\OpenCVModules.cmake;D:\Documents\SourceTree\ChessBot\VersionCpp\ChessBot\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Documents/SourceTree/ChessBot/VersionCpp/ChessBot/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Applications\CMake\bin\cmake.exe -HD:/Documents/SourceTree/ChessBot/VersionCpp/ChessBot -BD:/Documents/SourceTree/ChessBot/VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default --check-stamp-file D:/Documents/SourceTree/ChessBot/VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Documents/SourceTree/ChessBot/VersionCpp/ChessBot/CMakeLists.txt;D:\Documents\SourceTree\ChessBot\VersionCpp\ChessBot\CMakeLists.txt;D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\CMakeFiles\3.11.0-rc2\CMakeSystem.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\CMakeFiles\3.11.0-rc2\CMakeCCompiler.cmake;D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\CMakeFiles\3.11.0-rc2\CMakeCXXCompiler.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\CMakeFiles\3.11.0-rc2\CMakeRCCompiler.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\Applications\QT\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Applications\QT\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Applications\QT\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\Applications\QT\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\Applications\QT\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;D:\Documents\Code\Dependencies\opencv-3.4.1-build\OpenCVConfig-version.cmake;D:\Documents\Code\Dependencies\opencv-3.4.1-build\OpenCVConfig.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;D:\Documents\Code\Dependencies\opencv-3.4.1-build\OpenCVModules.cmake;D:\Documents\SourceTree\ChessBot\VersionCpp\ChessBot\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Documents/SourceTree/ChessBot/VersionCpp/ChessBot/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\Applications\CMake\bin\cmake.exe -HD:/Documents/SourceTree/ChessBot/VersionCpp/ChessBot -BD:/Documents/SourceTree/ChessBot/VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default --check-stamp-file D:/Documents/SourceTree/ChessBot/VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/Documents/SourceTree/ChessBot/VersionCpp/ChessBot/CMakeLists.txt;D:\Documents\SourceTree\ChessBot\VersionCpp\ChessBot\CMakeLists.txt;D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\CMakeFiles\3.11.0-rc2\CMakeSystem.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\CMakeFiles\3.11.0-rc2\CMakeCCompiler.cmake;D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\CMakeFiles\3.11.0-rc2\CMakeCXXCompiler.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\CMakeFiles\3.11.0-rc2\CMakeRCCompiler.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\Applications\QT\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Applications\QT\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Applications\QT\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\Applications\QT\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\Applications\QT\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;D:\Documents\Code\Dependencies\opencv-3.4.1-build\OpenCVConfig-version.cmake;D:\Documents\Code\Dependencies\opencv-3.4.1-build\OpenCVConfig.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;D:\Documents\Code\Dependencies\opencv-3.4.1-build\OpenCVModules.cmake;D:\Documents\SourceTree\ChessBot\VersionCpp\ChessBot\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Documents/SourceTree/ChessBot/VersionCpp/ChessBot/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Applications\CMake\bin\cmake.exe -HD:/Documents/SourceTree/ChessBot/VersionCpp/ChessBot -BD:/Documents/SourceTree/ChessBot/VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default --check-stamp-file D:/Documents/SourceTree/ChessBot/VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Documents/SourceTree/ChessBot/VersionCpp/ChessBot/CMakeLists.txt;D:\Documents\SourceTree\ChessBot\VersionCpp\ChessBot\CMakeLists.txt;D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\CMakeFiles\3.11.0-rc2\CMakeSystem.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\CMakeFiles\3.11.0-rc2\CMakeCCompiler.cmake;D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\CMakeFiles\3.11.0-rc2\CMakeCXXCompiler.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\CMakeFiles\3.11.0-rc2\CMakeRCCompiler.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\Applications\QT\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Applications\QT\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Applications\QT\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\Applications\QT\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\Applications\QT\5.10.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;D:\Documents\Code\Dependencies\opencv-3.4.1-build\OpenCVConfig-version.cmake;D:\Documents\Code\Dependencies\opencv-3.4.1-build\OpenCVConfig.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;D:\Applications\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;D:\Documents\Code\Dependencies\opencv-3.4.1-build\OpenCVModules.cmake;D:\Documents\SourceTree\ChessBot\VersionCpp\ChessBot\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Documents\SourceTree\ChessBot\VersionCpp\ChessBot\main.cpp" />
+    <ClCompile Include="D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\ChessBot_autogen\mocs_compilation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\ZERO_CHECK.vcxproj">
+      <Project>{B0631D39-BE67-3F32-9AA4-8A69C068F23B}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

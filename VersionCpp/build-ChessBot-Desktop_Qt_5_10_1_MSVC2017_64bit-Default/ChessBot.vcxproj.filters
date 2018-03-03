@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Documents\SourceTree\ChessBot\VersionCpp\ChessBot\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\SourceTree\ChessBot\VersionCpp\build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default\ChessBot_autogen\mocs_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents\SourceTree\ChessBot\VersionCpp\ChessBot\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C19B5E75-8511-3E20-ADD7-92C411F6875C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
