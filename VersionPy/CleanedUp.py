@@ -37,7 +37,7 @@ def main():
 
     LAPTOP = False
 
-    move_only = True
+    move_only = False
     new_board = False
 
     IMAGES_PATH, TEMPLATES_PATH, TIMERS_PATH, ENGINE_PATH = "", "", "", ""
@@ -94,8 +94,16 @@ def main():
 
     SLEEP_DELAY = 0.1
 
-    TIMER_SIMILARITY_THRESHOLD = 0.9
-    PIECE_SIMILARITY_THRESHOLD = 0.5
+    TM_METHOD = cv2.TM_CCOEFF_NORMED
+
+    PIECE_SIMILARITY_THRESHOLD, TIMER_SIMILARITY_THRESHOLD = 0, 0
+
+    if TM_METHOD == cv2.TM_CCOEFF_NORMED:
+        TIMER_SIMILARITY_THRESHOLD = 0.9
+        PIECE_SIMILARITY_THRESHOLD = 0.5
+    elif TM_METHOD == cv2.TM_SQDIFF_NORMED:
+        TIMER_SIMILARITY_THRESHOLD = 0.9
+        PIECE_SIMILARITY_THRESHOLD = 0.5
 
     BLACK_TIMER_IMG_NAME = "BlackTimer.png"
     WHITE_TIMER_IMG_NAME = "WhiteTimer.png"
@@ -117,6 +125,8 @@ def main():
     for template_path in template_paths:
         template_mats.append(cv2.imread(template_path))
 
+    black_timer_template = cv2.imread(TIMERS_PATH + BLACK_TIMER_IMG_NAME)
+    white_timer_template = cv2.imread(TIMERS_PATH + WHITE_TIMER_IMG_NAME)
 
     # Initialize UCI chess engine
 
@@ -188,9 +198,6 @@ def main():
             # Image.fromarray(resized_black_timer_capture, "RGB").save(TIMERS_PATH + "BlackTimer.png")
             # Image.fromarray(resized_black_timer_capture, "RGB").save(TIMERS_PATH + "WhiteTimer.png")
 
-            black_timer_template = cv2.imread(TIMERS_PATH + BLACK_TIMER_IMG_NAME)
-            white_timer_template = cv2.imread(TIMERS_PATH + WHITE_TIMER_IMG_NAME)
-
             # black_timer_similarity = rgbTemplateMatchMat(resized_black_timer_capture, black_timer_template)
             # white_timer_similarity = rgbTemplateMatchMat(resized_white_timer_capture, black_white_template)
 
@@ -238,15 +245,13 @@ def main():
             row_slash_count = 0
 
             start_template_time = time.time()
-            print("Time to determine moving side:", start_template_time - start_time)
+
+            # print("Time to determine moving side:", start_template_time - start_time)
 
             # Start board template match
             for row in SQUARE_NUMBERS:
                 for col in SQUARE_NUMBERS:
                     square_image = resized_board_capture[int(RESIZED_PIECE_DIM * (row-1)): int(RESIZED_PIECE_DIM * row), int(RESIZED_PIECE_DIM * (col-1)): int(RESIZED_PIECE_DIM * col)]
-
-                    # cv2.imshow("Piece", square_image)
-                    # cv2.waitKey(0)
 
                     similarity_list = []
                     for mat in template_mats:
@@ -255,6 +260,11 @@ def main():
 
                     best_match = max(similarity_list)
                     best_match_index = similarity_list.index(best_match)
+
+                    # print(best_match)
+                    # if 0.5 < best_match < 0.9:
+                    #     cv2.imshow("Piece", square_image)
+                    #     cv2.waitKey(0)
 
                     if best_match > PIECE_SIMILARITY_THRESHOLD:
                         best_template = templates[best_match_index]
@@ -284,6 +294,7 @@ def main():
             # Finish board template match
 
             end_template_time = time.time()
+
             print("Time to template match:", end_template_time - start_template_time)
 
             if FEN.endswith("/"):
@@ -304,7 +315,7 @@ def main():
 
             formatted_FEN = FEN + " " + moving_side + " " + castle_availability + " - " + "0 0"
 
-            print("Formatted FEN:", formatted_FEN)
+            # print("Formatted FEN:", formatted_FEN)
 
             # Move calculation with chess engine
             board = chess.Board(formatted_FEN)
@@ -312,7 +323,9 @@ def main():
 
             print(board)
 
-            depth = chess_engine.go(movetime = 1000)
+            search_depth = random.randint(4, 7)
+
+            depth = chess_engine.go(search_depth)
             best_move = str(depth[0])
 
             if difficulty == 0:
@@ -329,8 +342,10 @@ def main():
                     print("Move 3:", third_move, "Score:", third_score)
 
                     if abs(first_score - second_score) >= 80:
+                        print("OBVIOUS MOVE 1")
                         time.sleep(random.randint(0, 1))
                     elif abs(second_score - third_score) >= 80:
+                        print("OBVIOUS MOVe 2")
                         time.sleep(random.randint(0, 1))
                         best_move = second_move
                     else:
@@ -343,7 +358,9 @@ def main():
 
                         if 10 <= move_count <= 30:
                             print("MIDDLEGAME")
-                            time.sleep(random.randint(0, 5))
+                            time.sleep(random.randint(1, 5))
+                        else:
+                            time.sleep(random.randint(1, 150)/100.0)
                 except:
                     print("Best Move:", best_move)
                     print(engine_handler.info)
@@ -352,9 +369,11 @@ def main():
 
             end_move_time = time.time()
 
-            print("Time to calculate move:", end_move_time - end_template_time)
+            # print("Time to calculate move:", end_move_time - end_template_time)
 
-            if move_only:
+            print("Search Depth:", search_depth)
+
+            if move_only or best_move == "0000":
                 continue
 
             if 'e1' in best_move:
@@ -382,11 +401,11 @@ def main():
             second_top = 160 + (BOARD_DIM - PIECE_DIM * int(second_half_move[1])) + 50
             second_left = 285 + PIECE_DIM * (ord(second_half_move[0]) - 97) + 50
 
-            print(first_left, first_top)
+            # print(first_left, first_top)
 
             clickDown(int(first_left), int(first_top))
 
-            time.sleep(random.randint(0, 5))
+            time.sleep(SLEEP_DELAY)
 
             clickUp(int(second_left), int(second_top))
 
