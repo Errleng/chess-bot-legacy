@@ -136,8 +136,12 @@ def main():
 
     ENGINE_NAME = "Rybkav2.3.2a.mp.x64.exe"
     # ENGINE_NAME = "stockfish_9_x64.exe"
+    ENGINE_NAME = "DeepHiarcs14WCSC_AC4.exe"
 
-    chess_engine = chess.uci.popen_engine(ENGINE_PATH + ENGINE_NAME)
+    if ENGINE_NAME == "DeepHiarcs14WCSC_AC4.exe":
+        chess_engine = chess.uci.popen_engine("C:/Users/Recursor/Desktop/BACKUP/Engines/" + ENGINE_NAME)
+    else:
+        chess_engine = chess.uci.popen_engine(ENGINE_PATH + ENGINE_NAME)
     chess_engine.uci()
     engine_handler = chess.uci.InfoHandler()
     chess_engine.info_handlers.append(engine_handler)
@@ -171,6 +175,10 @@ def main():
         elif ENGINE_NAME == "stockfish_9_x64.exe":
             chess_engine.setoption({"MultiPV": 3})
             print("Set Stockfish's MultiPV to 3")
+        # elif ENGINE_NAME == "DeepHiarcs14WCSC_AC4.exe":
+        #     elo = 1700
+        #     chess_engine.setoption({"UCI_LimitStrength": True})
+        #     chess_engine.setoption({"UCI_Elo": elo})
 
     if new_board:
         board_capture = numpy.array(ImageGrab.grab(BOARD_BBOX), dtype=numpy.uint8)
