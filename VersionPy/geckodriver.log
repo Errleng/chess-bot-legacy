@@ -1,0 +1,907 @@
+1520221276050	geckodriver	INFO	geckodriver 0.19.1
+1520221276072	geckodriver	INFO	Listening on 127.0.0.1:64661
+1520221279276	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.3O4x7h4Nh1DI"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520221281101	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520221293507	geckodriver	INFO	geckodriver 0.19.1
+1520221293528	geckodriver	INFO	Listening on 127.0.0.1:64678
+1520221296713	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.jAt0ZsepHhwX"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520221298346	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1520221301636	Marionette	INFO	Listening on port 64686
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520221302037	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520221323331	geckodriver	INFO	geckodriver 0.19.1
+1520221323353	geckodriver	INFO	Listening on 127.0.0.1:64745
+1520221333649	geckodriver	INFO	geckodriver 0.19.1
+1520221333671	geckodriver	INFO	Listening on 127.0.0.1:64747
+1520221336879	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.8xTfYjGRWmOC"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520221338538	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520221341976	Marionette	INFO	Listening on port 64755
+1520221342174	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520221396857	geckodriver	INFO	geckodriver 0.19.1
+1520221396875	geckodriver	INFO	Listening on 127.0.0.1:64880
+1520221400046	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.9aLxHahs1q5o"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520221401683	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520221404931	Marionette	INFO	Listening on port 64888
+1520221405313	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://betacssjs.chesscomfiles.com/bundles/app/js/common.dll.89cde529.js, line 1: Error: Network Error
+JavaScript error: https://betacssjs.chesscomfiles.com/bundles/app/js/common.dll.89cde529.js, line 1: Error: Network Error
+JavaScript error: https://betacssjs.chesscomfiles.com/bundles/app/js/common.dll.89cde529.js, line 1: Error: Network Error
+JavaScript error: chrome://global/content/viewZoomOverlay.js, line 47: TypeError: zoom is undefined
+JavaScript error: resource:///modules/ZoomUI.jsm, line 69: TypeError: win.gBrowser is undefined
+JavaScript error: chrome://marionette/content/driver.js, line 1352: TypeError: WeakMap key must be an object, got undefined
+Handler function NetworkEventActorProxy.addResponseStart threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onResponseHeader@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1374:5
+_dispatchActivity@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:995:9
+NetworkMonitor.prototype.observeActivity<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1057:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1859, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseStart threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onResponseHeader@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1374:5
+_dispatchActivity@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:995:9
+NetworkMonitor.prototype.observeActivity<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1057:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1859, column: 0
+Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:516:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Line: 1859, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:516:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Line: 1859, column: 0
+Handler function NetworkEventActorProxy.addResponseHeaders threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_findOpenResponse@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:570:5
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:437:5
+Line: 1859, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseHeaders threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_findOpenResponse@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:570:5
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:437:5
+Line: 1859, column: 0
+Handler function NetworkEventActorProxy.addResponseCookies threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_findOpenResponse@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:571:5
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:437:5
+Line: 1859, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseCookies threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_findOpenResponse@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:571:5
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:437:5
+Line: 1859, column: 0
+Handler function NetworkEventActorProxy.addEventTimings threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onTransactionClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1388:5
+_dispatchActivity@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:998:9
+NetworkMonitor.prototype.observeActivity<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1057:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1859, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addEventTimings threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onTransactionClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1388:5
+_dispatchActivity@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:998:9
+NetworkMonitor.prototype.observeActivity<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1057:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1859, column: 0
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:641:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:590:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:689:7
+Line: 1859, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:641:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:590:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:689:7
+Line: 1859, column: 0
+JavaScript error: resource:///modules/ZoomUI.jsm, line 69: TypeError: win.gBrowser is undefined
+Handler function NetworkEventActorProxy.addResponseStart threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onResponseHeader@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1374:5
+_dispatchActivity@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:995:9
+NetworkMonitor.prototype.observeActivity<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1057:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1859, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseStart threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onResponseHeader@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1374:5
+_dispatchActivity@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:995:9
+NetworkMonitor.prototype.observeActivity<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1057:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1859, column: 0
+Handler function NetworkEventActorProxy.addEventTimings threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onTransactionClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1388:5
+_dispatchActivity@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:998:9
+NetworkMonitor.prototype.observeActivity<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1057:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1859, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addEventTimings threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onTransactionClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1388:5
+_dispatchActivity@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:998:9
+NetworkMonitor.prototype.observeActivity<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1057:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1859, column: 0
+Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:516:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Line: 1859, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:516:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Line: 1859, column: 0
+Handler function NetworkEventActorProxy.addResponseStart threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onResponseHeader@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1374:5
+_dispatchActivity@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:995:9
+NetworkMonitor.prototype.observeActivity<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1057:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1859, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseStart threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onResponseHeader@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1374:5
+_dispatchActivity@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:995:9
+NetworkMonitor.prototype.observeActivity<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1057:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1859, column: 0
+Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:516:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Line: 1859, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:516:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Line: 1859, column: 0
+Handler function NetworkEventActorProxy.addEventTimings threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onTransactionClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1388:5
+_dispatchActivity@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:998:9
+NetworkMonitor.prototype.observeActivity<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1057:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1859, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addEventTimings threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onTransactionClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1388:5
+_dispatchActivity@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:998:9
+NetworkMonitor.prototype.observeActivity<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1057:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1859, column: 0
+Handler function NetworkEventActorProxy.addEventTimings threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onTransactionClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1388:5
+_dispatchActivity@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:998:9
+NetworkMonitor.prototype.observeActivity<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1057:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1859, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addEventTimings threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onTransactionClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1388:5
+_dispatchActivity@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:998:9
+NetworkMonitor.prototype.observeActivity<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1057:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1859, column: 0
+Handler function NetworkEventActorProxy.addResponseStart threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onResponseHeader@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1374:5
+_dispatchActivity@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:995:9
+NetworkMonitor.prototype.observeActivity<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1057:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1859, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseStart threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onResponseHeader@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1374:5
+_dispatchActivity@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:995:9
+NetworkMonitor.prototype.observeActivity<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1057:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1859, column: 0
+Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:516:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Line: 1859, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:516:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Line: 1859, column: 0
+Handler function NetworkEventActorProxy.addEventTimings threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onTransactionClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1388:5
+_dispatchActivity@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:998:9
+NetworkMonitor.prototype.observeActivity<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1057:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1859, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addEventTimings threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onTransactionClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1388:5
+_dispatchActivity@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:998:9
+NetworkMonitor.prototype.observeActivity<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1057:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1859, column: 0
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:641:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:598:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:689:7
+Line: 1859, column: 0
+console.error: 
+1520221430666	Marionette	DEBUG	Register listener.js for window 2147483655
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:641:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:598:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:689:7
+Line: 1859, column: 0
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:641:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:590:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:689:7
+Line: 1859, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:641:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:590:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:689:7
+Line: 1859, column: 0
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:641:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:590:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:689:7
+Line: 1859, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:641:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:590:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:689:7
+Line: 1859, column: 0
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:641:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:590:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:689:7
+Line: 1859, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:641:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:590:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:689:7
+Line: 1859, column: 0
+1520221430801	Marionette	DEBUG	Register listener.js for window 2147483657
+Handler function NetworkEventActorProxy.addResponseStart threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onResponseHeader@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1374:5
+_dispatchActivity@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:995:9
+NetworkMonitor.prototype.observeActivity<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1057:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1859, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseStart threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onResponseHeader@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1374:5
+_dispatchActivity@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:995:9
+NetworkMonitor.prototype.observeActivity<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1057:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1859, column: 0
+Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:516:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Line: 1859, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:516:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Line: 1859, column: 0
+Handler function NetworkEventActorProxy.addResponseHeaders threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_findOpenResponse@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:570:5
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:437:5
+Line: 1859, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseHeaders threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_findOpenResponse@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:570:5
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:437:5
+Line: 1859, column: 0
+Handler function NetworkEventActorProxy.addResponseCookies threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_findOpenResponse@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:571:5
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:437:5
+Line: 1859, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseCookies threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_findOpenResponse@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:571:5
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:437:5
+Line: 1859, column: 0
+Handler function NetworkEventActorProxy.addEventTimings threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onTransactionClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1388:5
+_dispatchActivity@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:998:9
+NetworkMonitor.prototype.observeActivity<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1057:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1859, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addEventTimings threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onTransactionClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1388:5
+_dispatchActivity@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:998:9
+NetworkMonitor.prototype.observeActivity<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1057:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1859, column: 0
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:641:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:590:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:689:7
+Line: 1859, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1859"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1859:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:641:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:590:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:689:7
+Line: 1859, column: 0
+JavaScript warning: https://vidstat.taboola.com/vpaid/vPlayer/player/v8.7.0/OvaMediaPlayer.js, line 3: unreachable code after return statement
+JavaScript warning: https://vidstat.taboola.com/vpaid/vPlayer/player/v8.7.0/OvaMediaPlayer.js, line 3: unreachable code after return statement
+JavaScript error: https://cdn-ssl.vidible.tv/prod/ad-client/js/2.2.52/0.js, line 149: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+[Parent 6256, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://cdn-ssl.vidible.tv/prod/ad-client/js/2.2.52/0.js, line 149: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: https://cdn-ssl.vidible.tv/prod/ad-client/js/2.2.52/0.js, line 149: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: https://cdn-ssl.vidible.tv/prod/ad-client/js/2.2.52/0.js, line 149: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+[Parent 6256, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6256, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://cdn-ssl.vidible.tv/prod/ad-client/js/2.2.52/0.js, line 149: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+console.error: 
+  Got a removal of an actor we didn't know about: server1.conn0.child1/domnode341
+JavaScript warning: https://vidstat.taboola.com/vpaid/vPlayer/player/v8.7.0/OvaMediaPlayer.js, line 3: unreachable code after return statement
+JavaScript warning: https://vidstat.taboola.com/vpaid/vPlayer/player/v8.7.0/OvaMediaPlayer.js, line 3: unreachable code after return statement
+1520221693767	geckodriver	INFO	geckodriver 0.19.1
+1520221693780	geckodriver	INFO	Listening on 127.0.0.1:65424
+1520221696995	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.etDzclj1mJB1"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520221698682	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520221701907	Marionette	INFO	Listening on port 65432
+1520221702238	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://vidstat.taboola.com/vpaid/vPlayer/player/v8.7.0/OvaMediaPlayer.js, line 3: unreachable code after return statement
+JavaScript warning: https://vidstat.taboola.com/vpaid/vPlayer/player/v8.7.0/OvaMediaPlayer.js, line 3: unreachable code after return statement
+JavaScript error: https://cdn-ssl.vidible.tv/prod/ad-client/js/2.2.52/0.js, line 149: NS_ERROR_NOT_INITIALIZED: 
+[Parent 13072, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://cdn-ssl.vidible.tv/prod/ad-client/js/2.2.52/0.js, line 149: NS_ERROR_NOT_INITIALIZED: 
+1520221760192	geckodriver	INFO	geckodriver 0.19.1
+1520221760215	geckodriver	INFO	Listening on 127.0.0.1:49369
+1520221763459	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.dFZp6VrKpa1R"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520221765279	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520221769022	Marionette	INFO	Listening on port 49383
+1520221769242	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x100037,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x100037,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 12184, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&glade_req=1&glv=26&dt=1520221795445&output=html&iu=%2F1082185%2F160X600-Top-Right&sz=160x600&sfv=1-0-10&correlator=4499760388300784&adk=4254123207&biw=1268&bih=855&adx=1108&ady=0&oid=3&u_sd=1&ifi=1&click=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjsurCy6Yx0wpHvGDYZ6wYlpjBaYZH9THw5P2fq6Uwpk8RKCMtZv_evNHIppmLg56DwFy6DuOakXatD_SlesoWVVqjGSfHKkD26nzHNplTTcCnOyLfQVzXPl6w5vWYZtgnrMDcow45AOKTgyvkHV55sKE6SgGTFwn0kbP76A-LwUlwj5-QoLedUlAnGJEpAZ10TM77YqNSonQcWCgp7u6LMv76RKMh--gUCRfk2Zs%26sig%3DCg0ArKJSzI-lc1wmlESXEAE%26urlfix%3D1%26adurl%3D&nhd=1&url=https%3A%2F%2Fwww.chess.com%2Flive%23g%3D2656534746&top=https%3A%2F%2Fwww.chess.com%2Flive%23g%3D2656534746&ref=https%3A%2F%2Fwww.chess.com%2Fhome, line 27: TypeError: parent is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+[Parent 12184, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12184, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12184, Gecko_IOThread] WARNING: pipe e
+###!!! [Parent][MessageChannel] Error: (msgtype=0x100037,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+
+rror: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12184, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x100037,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x100037,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 12184, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12184, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x100037,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+1520221915832	geckodriver	INFO	geckodriver 0.19.1
+1520221915850	geckodriver	INFO	Listening on 127.0.0.1:49945
+1520221919053	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.fnbILmpbaab8"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520221920532	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520221923380	Marionette	INFO	Listening on port 49953
+1520221924284	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520222074988	geckodriver	INFO	geckodriver 0.19.1
+1520222074993	geckodriver	INFO	Listening on 127.0.0.1:50075
+1520222078101	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.tPhM0JZI3H5H"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520222078443	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520222079441	Marionette	INFO	Listening on port 50083
+1520222079610	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://vidstat.taboola.com/vpaid/vPlayer/player/v8.7.0/OvaMediaPlayer.js, line 3: unreachable code after return statement
+JavaScript warning: https://vidstat.taboola.com/vpaid/vPlayer/player/v8.7.0/OvaMediaPlayer.js, line 3: unreachable code after return statement
+JavaScript error: https://cdn-ssl.vidible.tv/prod/ad-client/js/2.2.52/0.js, line 149: NS_ERROR_NOT_INITIALIZED: 
+[Parent 13676, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://cdn-ssl.vidible.tv/prod/ad-client/js/2.2.52/0.js, line 149: NS_ERROR_NOT_INITIALIZED: 
+[Parent 13676, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13676, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/commo1520222142380	mozrunner::runner	[Parent 13676, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7156, Chrome_ChildThread] WARNING: pipe error[Parent 13676, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13872, Chrom
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+egistry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520222143685	Marionette	INFO	Listening on port 50606
+1520222143890	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7396, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3772, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3772, Chrome_ChildThread][Parent 7396, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13288, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 3
+###!!! [Child][MessageChannel] Error: (msgtype=0x49000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+46
+[Child 13288, Chrome_ChildThread] WARNING: pipe e[Parent 7396, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14160, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14160, Chrome_Child*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 14040, Chrome_ChildThread] WARNING: pipe er
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1520222189837	geckodriver	INFO	geckodriver 0.19.1
+1520222189842	geckodriver	INFO	Listening on 127.0.0.1:50926
+1520222192932	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.x5XAhSc9opnd"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520222193262	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520222223057	geckodriver	INFO	geckodriver 0.19.1
+1520222223063	geckodriver	INFO	Listening on 127.0.0.1:50946
+1520222226153	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.LZswDoDKBk4P"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520222226493	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520222227405	Marionette	INFO	Listening on port 50954
+1520222227661	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://vidstat.taboola.com/vpaid/vPlayer/player/v8.7.0/OvaMediaPlayer.js, line 3: unreachable code after return statement
+JavaScript warning: https://vidstat.taboola.com/vpaid/vPlayer/player/v8.7.0/OvaMediaPlayer.js, line 3: unreachable code after return statement
+JavaScript error: https://cdn-ssl.vidible.tv/prod/ad-client/js/2.2.52/0.js, line 149: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cdn-ssl.vidible.tv/prod/ad-client/js/2.2.52/0.js, line 149: NS_ERROR_NOT_INITIALIZED: 
+[Parent 14700, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14700, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript warning: https://vidstat.taboola.com/vpaid/vPlayer/player/v8.7.0/OvaMediaPlayer.js, line 3: unreachable code after return statement
+JavaScript warning: https://vidstat.taboola.com/vpaid/vPlayer/player/v8.7.0/OvaMediaPlayer.js, line 3: unreachable code after return statement
+JavaScript error: https://cdn-ssl.vidible.tv/prod/ad-client/js/2.2.52/0.js, line 149: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cdn-ssl.vidible.tv/prod/ad-client/js/2.2.52/0.js, line 149: NS_ERROR_NOT_INITIALIZED: 
+[Parent 14700, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14700, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://c.amazon-adsystem.com/aax2/csm.js.gz, line 1: NS_ERROR_ILLEGAL_VALUE: 
+1520222724989	geckodriver	INFO	geckodriver 0.19.1
+1520222725011	geckodriver	INFO	Listening on 127.0.0.1:54916
+1520222728214	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.mTLje9ccv3vx"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520222729914	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520222733077	Marionette	INFO	Listening on port 54926
+1520222733456	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://vidstat.taboola.com/vpaid/vPlayer/player/v8.7.0/OvaMediaPlayer.js, line 3: unreachable code after return statement
+JavaScript warning: https://vidstat.taboola.com/vpaid/vPlayer/player/v8.7.0/OvaMediaPlayer.js, line 3: unreachable code after return statement
+JavaScript error: https://cdn-ssl.vidible.tv/prod/ad-client/js/2.2.52/0.js, line 149: NS_ERROR_NOT_INITIALIZED: 
+[Parent 4672, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://cdn-ssl.vidible.tv/prod/ad-client/js/2.2.52/0.js, line 149: NS_ERROR_NOT_INITIALIZED: 
+1520222823071	geckodriver	INFO	geckodriver 0.19.1
+1520222823096	geckodriver	INFO	Listening on 127.0.0.1:55452
+1520222826306	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.zhAN18kW6o6x"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520222827875	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520222830880	Marionette	INFO	Listening on port 55463
+1520222831553	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://vidstat.taboola.com/vpaid/vPlayer/player/v8.7.0/OvaMediaPlayer.js, line 3: unreachable code after return statement
+JavaScript warning: https://vidstat.taboola.com/vpaid/vPlayer/player/v8.7.0/OvaMediaPlayer.js, line 3: unreachable code after return statement
+JavaScript error: https://cdn-ssl.vidible.tv/prod/ad-client/js/2.2.52/0.js, line 149: NS_ERROR_NOT_INITIALIZED: 
+[Parent 13480, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://cdn-ssl.vidible.tv/prod/ad-client/js/2.2.52/0.js, line 149: NS_ERROR_NOT_INITIALIZED: 
+[Parent 13480, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1520222901998	geckodriver	INFO	geckodriver 0.19.1
+1520222902020	geckodriver	INFO	Listening on 127.0.0.1:56147
+1520222905219	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.1AbWpy0RrxKf"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520222906630	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520222909973	Marionette	INFO	Listening on port 56155
+1520222910462	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1520223416858	geckodriver	INFO	geckodriver 0.19.1
+1520223416881	geckodriver	INFO	Listening on 127.0.0.1:58701
+1520223443876	geckodriver	INFO	geckodriver 0.19.1
+1520223443898	geckodriver	INFO	Listening on 127.0.0.1:58705
+1520223447113	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.BBwBuoSDymh3"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520223448651	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+[GFX1-]: GFX: D3D11 detected a device reset in ResizeBuffers
+[GFX1-]: Could not resize the swapchain (0x4f4,0x3a2)
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520223452545	Marionette	INFO	Listening on port 58713
+1520223452891	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 13432, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13432, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://cdn.optimatic.com/optivpaid/5.2.6/optivpaid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.optimatic.com/optivpaid/5.2.6/optivpaid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.optimatic.com/optivpaid/5.2.6/optivpaid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.optimatic.com/optivpaid/5.2.6/optivpaid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.optimatic.com/optivpaid/5.2.6/optivpaid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.optimatic.com/optivpaid/5.2.6/optivpaid.js, line 3: TypeError: t is undefined
+[Parent 13432, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13432, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13432, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13432, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13432, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13432, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript warning: https://cdn-ssl.vidible.tv/prod/ad-client/js/2.2.52/0.js, line 19: Error: WebGL warning: Exceeded 16 live WebGL contexts for this principal, losing the least recently used one.
+WebGL(000001305D54E800)::ForceLoseContext
+JavaScript warning: https://cdn-ssl.vidible.tv/prod/ad-client/js/2.2.52/0.js, line 19: Error: WebGL warning: Exceeded 16 live WebGL contexts for this principal, losing the least recently used one.
+WebGL(0000013062861800)::ForceLoseContext
+JavaScript warning: https://cdn-ssl.vidible.tv/prod/ad-client/js/2.2.52/0.js, line 19: Error: WebGL warning: Exceeded 16 live WebGL contexts for this principal, losing the least recently used one.
+WebGL(000001306A7D9800)::ForceLoseContext
+JavaScript warning: https://cdn-ssl.vidible.tv/prod/ad-client/js/2.2.52/0.js, line 19: Error: WebGL warning: Exceeded 16 live WebGL contexts for this principal, losing the least recently used one.
+WebGL(0000013069C51000)::ForceLoseContext
+[Parent 13432, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13432, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13432, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13432, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1520223564396	geckodriver	INFO	geckodriver 0.19.1
+1520223564419	geckodriver	INFO	Listening on 127.0.0.1:59211
+1520223567626	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.MxJeJd9YfBsu"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520223569389	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520223584296	geckodriver	INFO	geckodriver 0.19.1
+1520223584318	geckodriver	INFO	Listening on 127.0.0.1:59240
+1520223587518	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.YGTfENlYsyxx"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520223588953	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520223593442	Marionette	INFO	Listening on port 59248
+1520223593774	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://betacssjs.chesscomfiles.com/bundles/app/js/common.dll.89cde529.js, line 1: Error: Network Error
+JavaScript error: https://betacssjs.chesscomfiles.com/bundles/app/js/common.dll.89cde529.js, line 1: Error: Network Error
+JavaScript error: https://betacssjs.chesscomfiles.com/bundles/app/js/common.dll.89cde529.js, line 1: Error: Network Error
+JavaScript error: https://betacssjs.chesscomfiles.com/bundles/app/js/common.dll.89cde529.js, line 1: Error: Network Error
+[Child 14948, MediaPlayback #1] WARNING: Decoder=1a4aa8f2800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 372
+[Child 14948, MediaPlayback #1] WARNING: Decoder=1a4aa8f2800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3365
+1520223707736	geckodriver	INFO	geckodriver 0.19.1
+1520223707753	geckodriver	INFO	Listening on 127.0.0.1:59598
+1520223710976	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.wenkDi5x57Ed"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520223712406	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520223715794	Marionette	INFO	Listening on port 59606
+1520223716368	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520223836787	geckodriver	INFO	geckodriver 0.19.1
+1520223836808	geckodriver	INFO	Listening on 127.0.0.1:59885
+1520223840012	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.9vMNVRxMwUyO"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520223841391	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520223844836	Marionette	INFO	Listening on port 59893
+1520223845281	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520223855389	geckodriver	INFO	geckodriver 0.19.1
+1520223855410	geckodriver	INFO	Listening on 127.0.0.1:59939
+1520223858622	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.C7YC9lagTSHX"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520223859974	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520223863471	Marionette	INFO	Listening on port 59947
+1520223863958	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520224059723	geckodriver	INFO	geckodriver 0.19.1
+1520224059744	geckodriver	INFO	Listening on 127.0.0.1:60180
+1520224062939	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.vfCpvrGE8Hos"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520224064285	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520224067549	Marionette	INFO	Listening on port 60188
+1520224068176	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520224333845	geckodriver	INFO	geckodriver 0.19.1
+1520224333868	geckodriver	INFO	Listening on 127.0.0.1:62039
+1520224337054	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.MSKdeO6fAB2g"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520224338846	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520224341963	Marionette	INFO	Listening on port 62047
+1520224342338	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520224353485	geckodriver	INFO	geckodriver 0.19.1
+1520224353510	geckodriver	INFO	Listening on 127.0.0.1:62070
+1520224356718	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.UjXCSCaGGQ91"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520224358582	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520224361854	Marionette	INFO	Listening on port 62078
+1520224362032	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 14024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14024, Gecko_IO
+###!!! [Parent][MessageChannel] Error: (msgtype=0x100037,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+
+Thread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://cdn.optimatic.com/optivpaid/5.2.6/optivpaid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.optimatic.com/optivpaid/5.2.6/optivpaid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.optimatic.com/optivpaid/5.2.6/optivpaid.js, line 3: TypeError: t is undefined
+JavaScript error: https://cdn.optimatic.com/optivpaid/5.2.6/optivpaid.js, line 3: TypeError: t is undefined
+[Parent 14024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://vpaid.springserve.com/production/vpaid_cb3f0c4c.js, line 1: NS_ERROR_NOT_INITIALIZED: 
+[Parent 14024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript warning: https://cdn-ssl.vidible.tv/prod/ad-client/js/2.2.52/0.js, line 19: Error: WebGL warning: Exceeded 16 live WebGL contexts for this principal, losing the least recently used one.
+WebGL(0000027437FD7000)::ForceLoseContext
+[Parent 14024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript warning: https://cdn-ssl.vidible.tv/prod/ad-client/js/2.2.52/0.js, line 19: Error: WebGL warning: Exceeded 16 live WebGL contexts for this principal, losing the least recently used one.
+WebGL(0000027435ADC800)::ForceLoseContext
+[Parent 14024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://cdn.optimatic.com/optivpaid/5.2.6/optivpaid.js, line 3: TypeError: e is null
+JavaScript error: https://cdn.optimatic.com/optivpaid/5.2.6/optivpaid.js, line 3: TypeError: e is null
+[Parent 14024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://cdn.optimatic.com/optivpaid/5.2.6/optivpaid.js, line 3: NotFoundError: Node was not found
+JavaScript error: https://cdn.optimatic.com/optivpaid/5.2.6/optivpaid.js, line 3: NotFoundError: Node was not found
+JavaScript error: https://cdn.optimatic.com/optivpaid/5.2.6/optivpaid.js, line 3: NotFoundError: Node was not found
+[Parent 14024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13420, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13420, Chrome_[Parent 14024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14860, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14860, Chrome_ChildThread] WARNING: pipe error: 109:
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1520224715561	geckodriver	INFO	geckodriver 0.19.1
+1520224715583	geckodriver	INFO	Listening on 127.0.0.1:65358
+1520224727165	geckodriver	INFO	geckodriver 0.19.1
+1520224727179	geckodriver	INFO	Listening on 127.0.0.1:65368
+1520224730401	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.zgJ0zKx03sic"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520224732167	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520224735514	Marionette	INFO	Listening on port 65376
+1520224735656	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520224766578	geckodriver	INFO	geckodriver 0.19.1
+1520224766600	geckodriver	INFO	Listening on 127.0.0.1:65432
+1520224790097	geckodriver	INFO	geckodriver 0.19.1
+1520224790122	geckodriver	INFO	Listening on 127.0.0.1:65455
+1520224793377	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.eugvKCPnPxkm"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520224795057	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520224798260	Marionette	INFO	Listening on port 65463
+1520224798695	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520224886043	geckodriver	INFO	geckodriver 0.19.1
+1520224886065	geckodriver	INFO	Listening on 127.0.0.1:49234
+1520224889319	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.m4YzBLWkO9iQ"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520224890598	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520224891542	Marionette	INFO	Listening on port 49242
+1520224892447	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520225064500	geckodriver	INFO	geckodriver 0.19.1
+1520225064506	geckodriver	INFO	Listening on 127.0.0.1:50844
+1520225067614	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.5wE2mleT3iOU"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520225067993	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520225070332	Marionette	INFO	Listening on port 50852
+1520225070728	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520225293830	geckodriver	INFO	geckodriver 0.19.1
+1520225293837	geckodriver	INFO	Listening on 127.0.0.1:58271
+1520225296911	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.uiYnI89R8A0P"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520225297292	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520225298271	Marionette	INFO	Listening on port 58279
+1520225298432	Marionette	WARN	TLS certificate errors will be ignored for this session

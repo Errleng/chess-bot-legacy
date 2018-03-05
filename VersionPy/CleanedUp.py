@@ -134,7 +134,7 @@ def main():
 
     # Initialize UCI chess engine
 
-    ENGINE_NAME = "Rybkav2.3.2a.mp.x64.exe"
+    # ENGINE_NAME = "Rybkav2.3.2a.mp.x64.exe"
     # ENGINE_NAME = "stockfish_9_x64.exe"
     ENGINE_NAME = "DeepHiarcs14WCSC_AC4.exe"
 

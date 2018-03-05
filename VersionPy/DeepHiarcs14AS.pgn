@@ -1,7 +1,0 @@
-{Hiarcs 14 Auto Save PGN File
-data path=<D:\Documents\SourceTree\ChessBot\VersionPy\>
-book path=<D:\Documents\SourceTree\ChessBot\VersionPy\>
-DB path=<D:\Documents\SourceTree\ChessBot\VersionPy\>
-eng path=<C:\Users\Recursor\Desktop\BACKUP\Engines> name=<DeepHiarcs14WCSC_AC4.exe>}
-
-FATAL ERROR: stdin pipe gone errno=2
