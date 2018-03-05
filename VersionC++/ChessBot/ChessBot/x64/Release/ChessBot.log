@@ -1,0 +1,12 @@
+﻿  stdafx.cpp
+  ChessBot.cpp
+ChessBot.cpp(336): warning C4101: 'squareCount': unreferenced local variable
+ChessBot.cpp(275): warning C4101: 'toMove': unreferenced local variable
+ChessBot.cpp(572): error C2065: 'GWL_HINSTANCE': undeclared identifier
+ChessBot.cpp(572): error C2660: 'CreateWindowExW': function does not take 11 arguments
+ChessBot.cpp(585): error C2065: 'GWL_HINSTANCE': undeclared identifier
+ChessBot.cpp(585): error C2660: 'CreateWindowExW': function does not take 11 arguments
+ChessBot.cpp(598): error C2065: 'GWL_HINSTANCE': undeclared identifier
+ChessBot.cpp(598): error C2660: 'CreateWindowExW': function does not take 11 arguments
+ChessBot.cpp(611): error C2065: 'GWL_HINSTANCE': undeclared identifier
+ChessBot.cpp(611): error C2660: 'CreateWindowExW': function does not take 11 arguments

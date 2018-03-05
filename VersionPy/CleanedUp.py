@@ -65,6 +65,9 @@ def main():
 
         TIMER_RESIZE_WIDTH = 27
         BOARD_RESIZE_WIDTH = 126
+
+        LEFT_OFFSET = 162
+        TOP_OFFSET = 161
     else:
         IMAGES_PATH = "D:/Documents/SourceTree/ChessBot/Screenshots/Desktop/"
         SAVE_PATH = IMAGES_PATH + "TempIconOutput/"
@@ -82,6 +85,9 @@ def main():
 
         # TIMER_RESIZE_WIDTH = 52
         BOARD_RESIZE_WIDTH = 202
+
+        LEFT_OFFSET = 285
+        TOP_OFFSET = 160
 
     practical_board = numpy.array(ImageGrab.grab(BOARD_BBOX))
     practical_board = imutils.resize(practical_board, width = BOARD_RESIZE_WIDTH)
