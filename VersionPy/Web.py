@@ -43,7 +43,7 @@ def makeMove(move, side):
 
     clickUp(int(second_left), int(second_top))
 
-LAPTOP = True
+LAPTOP = False
 
 move_only = False
 
@@ -101,8 +101,8 @@ target_class_name = "gotomove"
 move_str = "1. "
 starting_FEN = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
 
+delay = float(input("Enter speed in seconds: ")) * 100
 player = input("Enter player color: ").lower()
-delay = int(input("Enter speed in seconds: ")) * 100
 
 BLACK = "black"
 WHITE = "white"
@@ -147,44 +147,9 @@ while True:
         # print(type(moves))
         # print
 
-        # index = -1
-
-        # for i in range(len(moves)):
-        #     if i + len(move_str) < len(moves):
-        #         start_str = ""
-        #         for j in range(len(move_str)):
-        #             start_str += (moves[i + j])
-        #
-        #         if start_str == move_str:
-        #             # print("FOUND START STR:", start_str, "==", move_str)
-        #             index = i + len(move_str)
-        #             break
-
     process_start = time.time()
 
-    if len(moves) > 0 and (moves[-1] != "1-0" and moves[-1] != "0-1"):
-        # move_section = moves[index:]
-        #
-        # move_section = move_section.replace("\n", " ")
-        # # cut_element = cut_element.replace(r"\\", "")
-        #
-        # # print("Moves Section")
-        # # print(move_section)
-        #
-        # list_moves = move_section.split(" ")
-        #
-        # for i in range(len(list_moves) - 1, -1, -1):
-        #     if list_moves[i].count(".") > 0:
-        #         del list_moves[i]
-        #
-        # del list_moves[-1]
-
-        # print("Moves!")
-        # print(list_moves)
-        # print("There are", len(list_moves), "moves")
-
-        # if 10 <= len(moves)//2 <= 30:
-        #     time.sleep(random.randint(1, 200)/100.0)
+    if len(moves) > 0 and (moves[-1] != "1-0" and moves[-1] != "0-1" and moves[-1] != "1/2-1/2"):
         time.sleep(random.randint(0, delay)/100.0)
 
         if len(moves) % 2 == 1 and player == WHITE:
@@ -207,7 +172,7 @@ while True:
         print(board)
 
         engine.position(board)
-        depth = engine.go(depth=8)
+        depth = engine.go(depth=4)
         best_move = str(depth[0])
 
         print("Time to calculate move:", time.time() - calculate_move)
@@ -217,11 +182,9 @@ while True:
             makeMove(best_move, player)
     else:
         print("Failed to find any moves")
+        delay = float(input("Enter speed in seconds: ")) * 100
         player = input("Enter player color: ").lower()
-        delay = int(input("Enter speed in seconds: ")) * 100
         move_count = 1
         moves = []
 
     print("Duration of processing:", time.time() - process_start)
-# mesmerFULL
-# zunoit

@@ -1176,3 +1176,182 @@ Unable to read VR Path Registry from C:\Users\aisae\AppData\Local\openvr\openvrp
 1520275307019	Marionette	INFO	Enabled via --marionette
 1520275311294	Marionette	INFO	Listening on port 65449
 1520275311893	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520291754253	geckodriver	INFO	geckodriver 0.19.1
+1520291754274	geckodriver	INFO	Listening on 127.0.0.1:53665
+1520291757479	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.xtw8tqBl4Wqq"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520291758796	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520291762044	Marionette	INFO	Listening on port 53673
+1520291762717	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s0.2mdn.net/3576711/1513265599911/Alcon_MultiFocal_160x600_Alt/Alcon_MultiFocal_160x600_Alt.html, line 102: TypeError: exportRoot is undefined
+1520292260399	geckodriver	INFO	geckodriver 0.19.1
+1520292260416	geckodriver	INFO	Listening on 127.0.0.1:54690
+1520292263614	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.46FSWLQO6NLL"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520292264787	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520292268188	Marionette	INFO	Listening on port 54698
+1520292268857	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 10468, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x520027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+[Child 5080, Chrome_ChildT
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+hread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5080, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 14332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14332, Chrome_Ch[Parent 10468, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x49000F,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+[Child 5668, Chrome_C
+###!!! [Child][MessageChannel] Error: (msgtype=0x520027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+hildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5668, [Parent 10468, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1520292558231	geckodriver	INFO	geckodriver 0.19.1
+1520292558248	geckodriver	INFO	Listening on 127.0.0.1:55083
+1520292561451	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.tNUvGLjEVkKK"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520292563058	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520292566654	Marionette	INFO	Listening on port 55091
+1520292566759	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7948, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2008, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7948, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6992, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 7948, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8452, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8452, Chrome_C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1520292803775	geckodriver	INFO	geckodriver 0.19.1
+1520292803792	geckodriver	INFO	Listening on 127.0.0.1:55453
+1520292807058	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.BBY7lMJnVLAA"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520292808858	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520292812398	Marionette	INFO	Listening on port 55462
+1520292812815	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520293382183	geckodriver	INFO	geckodriver 0.19.1
+1520293382209	geckodriver	INFO	Listening on 127.0.0.1:56104
+1520293385392	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.gme6GLXVhOD5"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520293386927	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520293390126	Marionette	INFO	Listening on port 56114
+1520293390648	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520293535688	geckodriver	INFO	geckodriver 0.19.1
+1520293535706	geckodriver	INFO	Listening on 127.0.0.1:56532
+1520293538905	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.PSZWkRQJnQR0"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520293540336	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520293543879	Marionette	INFO	Listening on port 56540
+1520293544161	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520293967472	geckodriver	INFO	geckodriver 0.19.1
+1520293967498	geckodriver	INFO	Listening on 127.0.0.1:57453
+1520293970745	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.yrUyo4BjrFNs"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520293972509	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520293975997	Marionette	INFO	Listening on port 57464
+1520293976559	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520310511801	geckodriver	INFO	geckodriver 0.19.1
+1520310511816	geckodriver	INFO	Listening on 127.0.0.1:52778
+1520310514932	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Recursor\\AppData\\Local\\Temp\\rust_mozprofile.8lo2PF18EYUb"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520310516312	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1520310519557	Marionette	INFO	Listening on port 52786
+1520310520462	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://c.amazon-adsystem.com/aax2/csm.js.gz, line 1: NS_ERROR_ILLEGAL_VALUE: 
+JavaScript error: https://c.amazon-adsystem.com/aax2/csm.js.gz, line 1: NS_ERROR_ILLEGAL_VALUE: 
+JavaScript error: https://c.amazon-adsystem.com/aax2/csm.js.gz, line 1: NS_ERROR_ILLEGAL_VALUE: 
+JavaScript error: https://c.amazon-adsystem.com/aax2/csm.js.gz, line 1: NS_ERROR_ILLEGAL_VALUE: 
+JavaScript error: https://c.amazon-adsystem.com/aax2/csm.js.gz, line 1: NS_ERROR_ILLEGAL_VALUE: 
+JavaScript error: https://c.amazon-adsystem.com/aax2/csm.js.gz, line 1: NS_ERROR_ILLEGAL_VALUE: 
+JavaScript error: https://c.amazon-adsystem.com/aax2/csm.js.gz, line 1: NS_ERROR_ILLEGAL_VALUE: 
+JavaScript error: https://c.amazon-adsystem.com/aax2/csm.js.gz, line 1: NS_ERROR_ILLEGAL_VALUE: 
+JavaScript error: https://c.amazon-adsystem.com/aax2/csm.js.gz, line 1: NS_ERROR_ILLEGAL_VALUE: 
