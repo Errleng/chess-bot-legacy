@@ -92,7 +92,7 @@ def login(driver, username, password):
     print("Login complete")
 
 
-LAPTOP = False
+LAPTOP = True
 
 move_only = False
 
@@ -121,7 +121,7 @@ engine.info_handlers.append(handler)
 
 print("Loaded", engine.name)
 
-engine.setoption({"Skill Level": 6})
+engine.setoption({"Skill Level": 7})
 # engine.setoption({"UCI_LimitStrength": True})
 # engine.setoption({"UCI_Elo": 2000})
 
@@ -151,6 +151,10 @@ browser.get(start_url)
 
 login(browser, "breachFirst", "foamfathom")
 
+time.sleep(2)
+
+browser.get("https://www.chess.com/live")
+
 # browser = webdriver.Firefox(executable_path = r"D:/Applications/geckodriver/geckodriver.exe")
 
 target_element_name = "pgn"
@@ -170,7 +174,7 @@ moves = []
 last_move_time = time.time()
 
 while True:
-    time.sleep(0.5)
+    time.sleep(1)
 
     got_target = True
 
@@ -179,83 +183,90 @@ while True:
     # print("Current URL in Firefox:", browser.current_url, "Target URL: ", target_url)
     # print("Getting Source")
     source = browser.page_source
-    try:
-        # target_element = browser.find_elements_by_class_name(target_class_name)
-        # moves = target_element.get_attribute("value")
-        # target_element_content = [elem.text for elem in target_element]
-        element_str = "[id$=gotomoveid_0_" + str(move_count) + "]"
-        target_element = browser.find_element_by_css_selector(element_str)
-        target_element_content = target_element.text
-    except Exception as e:
-        print(e)
-        got_target = False
-        pass
+
+    TURN_BLACK = False
+
+    while True:
+        try:
+            # target_element = browser.find_elements_by_class_name(target_class_name)
+            # moves = target_element.get_attribute("value")
+            # target_element_content = [elem.text for elem in target_element]
+            element_str = "[id$=gotomoveid_0_" + str(move_count) + "]"
+            target_element = browser.find_element_by_css_selector(element_str)
+            target_element_content = target_element.text
+
+            # if got_target:
+            if target_element_content != "":
+                moves.append(target_element_content)
+                move_count += 1
+            else:
+                TURN_BLACK = True
+                break
+
+            # print("GOT VALUE")
+            # print
+            # print(moves)
+            # print(type(moves))
+            # print
+        except Exception as e:
+            print(e)
+            # got_target = False
+            break
 
     # print("Time to get page:", time.time() - request_time)
 
     # print(source)
-
-    if got_target:
-        if target_element_content != "":
-            moves.append(target_element_content)
-            move_count += 1
-
-        # print("GOT VALUE")
-        # print
-        print(moves)
-        # print(type(moves))
-        # print
-    if not got_target or target_element_content == "":
-        process_start = time.time()
-        if len(moves) > 0 and (moves[-1] != "1-0" and moves[-1] != "0-1" and moves[-1] != "1/2-1/2") or len(moves) == 0 and player == WHITE:
-
-            if len(moves) % 2 == 1 and player == WHITE:
-                # print("Opponent is Black")
+    process_start = time.time()
+    if len(moves) > 0 and (moves[-1] != "1-0" and moves[-1] != "0-1" and moves[-1] != "1/2-1/2") or len(moves) == 0 and player == WHITE:
+        if not move_only:
+            if TURN_BLACK and player == WHITE:
                 continue
-            elif len(moves) % 2 == 0 and player == BLACK:
-                # print("Opponent is White")
+            elif not TURN_BLACK and player == BLACK:
                 continue
 
-            if len(moves) > 1:
-                time_diff = abs(time.time() - last_move_time - 1)
-                print("Last move time:", time_diff)
-                if time_diff > 15:
-                    time_diff = 15
-                sleep_time = random.uniform(time_diff/5, time_diff/2)
-                time.sleep(sleep_time)
-            else:
-                last_move_time = time.time()
+        # print("Moves")
+        # print(moves)
 
-            board = chess.Board(starting_FEN)
-            calculate_move = time.time()
-
-            try:
-                for move in moves:
-                    board.push_san(move)
-            except Exception as e:
-                print(e)
-                continue
-
-            print(board)
-
-            engine.position(board)
-            depth = engine.go(depth = 6)
-            best_move = str(depth[0])
-
-            # print("Time to calculate move:", time.time() - calculate_move)
-            print("BEST MOVE:", best_move)
-
-            if not move_only:
-                # makeMove(best_move, player)
-
-                seleniumMakeMove(browser, best_move, player)
-
-            last_move_time = time.time()
+        if len(moves) > 1:
+            time_diff = abs(time.time() - last_move_time - 1)
+            print("Last move time:", time_diff)
+            if time_diff > 15:
+                time_diff = 15
+            sleep_time = random.uniform(time_diff/5, time_diff/2)
+            time.sleep(sleep_time)
         else:
-            print("Failed to find any moves")
-            # delay = float(input("Enter speed in seconds: ")) * 100
-            player = input("Enter player color: ").lower()
-            move_count = 1
-            moves = []
+            last_move_time = time.time()
+
+        board = chess.Board(starting_FEN)
+        calculate_move = time.time()
+
+        try:
+            for move in moves:
+                board.push_san(move)
+        except Exception as e:
+            print(e)
+            continue
+
+        # print(board)
+
+        engine.position(board)
+        depth = engine.go(depth = 6)
+        best_move = str(depth[0])
+
+        # print("Time to calculate move:", time.time() - calculate_move)
+        print("BEST MOVE:", best_move)
+
+        if not move_only:
+            # makeMove(best_move, player)
+
+            seleniumMakeMove(browser, best_move, player)
+
+        last_move_time = time.time()
+    else:
+        print("Failed to find any moves")
+        # delay = float(input("Enter speed in seconds: ")) * 100
+        player = input("Enter player color: ").lower()
+        move_count = 1
+        moves = []
 
         print("Duration of processing:", time.time() - process_start)
