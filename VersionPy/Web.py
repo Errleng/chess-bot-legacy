@@ -8,11 +8,13 @@ import chess.uci
 
 global BOARD_DIM, PIECE_DIM, LEFT_OFFSET, TOP_OFFSET
 
+
 def clickDown(x, y):
     win32api.SetCursorPos((x, y))
     time.sleep(0.05)
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN, x, y, 0, 0)
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP, x, y, 0, 0)
+
 
 def clickUp(x, y):
     win32api.SetCursorPos((x, y))
@@ -20,28 +22,75 @@ def clickUp(x, y):
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN, x, y, 0, 0)
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP, x, y, 0, 0)
 
+
 def makeMove(move, side):
     first_half_move = move[:2]
     second_half_move = move[2:4]
 
     if side == "white":
-        first_top = TOP_OFFSET + (BOARD_DIM - PIECE_DIM * int(first_half_move[1])) + 50
-        first_left = LEFT_OFFSET + PIECE_DIM * (ord(first_half_move[0]) - 97) + 50
+        first_top = TOP_OFFSET + (BOARD_DIM - PIECE_DIM * int(first_half_move[1])) + PIECE_DIM//2
+        first_left = LEFT_OFFSET + PIECE_DIM * (ord(first_half_move[0]) - 97) + PIECE_DIM//2
 
-        second_top = TOP_OFFSET + (BOARD_DIM - PIECE_DIM * int(second_half_move[1])) + 50
-        second_left = LEFT_OFFSET + PIECE_DIM * (ord(second_half_move[0]) - 97) + 50
+        second_top = TOP_OFFSET + (BOARD_DIM - PIECE_DIM * int(second_half_move[1])) + PIECE_DIM//2
+        second_left = LEFT_OFFSET + PIECE_DIM * (ord(second_half_move[0]) - 97) + PIECE_DIM//2
     else:
-        first_top = TOP_OFFSET + (BOARD_DIM - PIECE_DIM * (9 - int(first_half_move[1]))) + 50
-        first_left = LEFT_OFFSET + PIECE_DIM * (7 - (ord(first_half_move[0]) - 97)) + 50
+        first_top = TOP_OFFSET + (BOARD_DIM - PIECE_DIM * (9 - int(first_half_move[1]))) + PIECE_DIM//2
+        first_left = LEFT_OFFSET + PIECE_DIM * (7 - (ord(first_half_move[0]) - 97)) + PIECE_DIM//2
 
-        second_top = TOP_OFFSET + (BOARD_DIM - PIECE_DIM * (9 - int(second_half_move[1]))) + 50
-        second_left = LEFT_OFFSET + PIECE_DIM * (7 - (ord(second_half_move[0]) - 97)) + 50
+        second_top = TOP_OFFSET + (BOARD_DIM - PIECE_DIM * (9 - int(second_half_move[1]))) + PIECE_DIM//2
+        second_left = LEFT_OFFSET + PIECE_DIM * (7 - (ord(second_half_move[0]) - 97)) + PIECE_DIM//2
 
     clickDown(int(first_left), int(first_top))
 
     time.sleep(0.1)
 
     clickUp(int(second_left), int(second_top))
+
+
+def seleniumMakeMove(driver, move, side):
+    first_half_move = move[:2]
+    second_half_move = move[2:4]
+    try:
+        chessboard = driver.find_element_by_class_name("chessboard-container")
+    except Exception as exception:
+        print("Failed to make move")
+        print(exception)
+        return
+
+    action = webdriver.ActionChains(driver)
+    board_side = chessboard.size.get("width")
+    piece_side = board_side//8
+
+    if side == "white":
+        first_top = (board_side - piece_side * int(first_half_move[1])) + piece_side//2
+        first_left = piece_side * (ord(first_half_move[0]) - 97) + piece_side//2
+
+        second_top = (board_side - piece_side * int(second_half_move[1])) + piece_side//2
+        second_left = piece_side * (ord(second_half_move[0]) - 97) + piece_side//2
+    else:
+        first_top = (board_side - piece_side * (9 - int(first_half_move[1]))) + piece_side//2
+        first_left = piece_side * (7 - (ord(first_half_move[0]) - 97)) + piece_side//2
+
+        second_top = (board_side - piece_side * (9 - int(second_half_move[1]))) + piece_side//2
+        second_left = piece_side * (7 - (ord(second_half_move[0]) - 97)) + piece_side//2
+
+    action.move_to_element_with_offset(chessboard, first_left, first_top)
+    action.click()
+    action.move_to_element_with_offset(chessboard, second_left, second_top)
+    action.click()
+    action.perform()
+
+
+def login(driver, username, password):
+    name = driver.find_element_by_id("username")
+    passwd = driver.find_element_by_id("password")
+
+    name.send_keys(username)
+    passwd.send_keys(password)
+
+    driver.find_element_by_name("login").click()
+    print("Login complete")
+
 
 LAPTOP = False
 
@@ -70,6 +119,13 @@ engine.uci()
 handler = chess.uci.InfoHandler()
 engine.info_handlers.append(handler)
 
+print("Loaded", engine.name)
+
+engine.setoption({"Skill Level": 6})
+# engine.setoption({"UCI_LimitStrength": True})
+# engine.setoption({"UCI_Elo": 2000})
+
+
 # existing_instance = input("Existing browser instance?: ").lower()
 start_url = "https://www.chess.com/login_and_go?returnUrl=https%3A//www.chess.com/register"
 
@@ -93,6 +149,8 @@ start_url = "https://www.chess.com/login_and_go?returnUrl=https%3A//www.chess.co
 browser = webdriver.Firefox()
 browser.get(start_url)
 
+login(browser, "breachFirst", "foamfathom")
+
 # browser = webdriver.Firefox(executable_path = r"D:/Applications/geckodriver/geckodriver.exe")
 
 target_element_name = "pgn"
@@ -101,7 +159,7 @@ target_class_name = "gotomove"
 move_str = "1. "
 starting_FEN = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
 
-delay = float(input("Enter speed in seconds: ")) * 100
+# delay = float(input("Enter speed in seconds: ")) * 100
 player = input("Enter player color: ").lower()
 
 BLACK = "black"
@@ -109,9 +167,10 @@ WHITE = "white"
 
 move_count = 1
 moves = []
+last_move_time = time.time()
 
 while True:
-    time.sleep(1)
+    time.sleep(0.5)
 
     got_target = True
 
@@ -132,7 +191,7 @@ while True:
         got_target = False
         pass
 
-    print("Time to get page:", time.time() - request_time)
+    # print("Time to get page:", time.time() - request_time)
 
     # print(source)
 
@@ -146,45 +205,57 @@ while True:
         print(moves)
         # print(type(moves))
         # print
+    if not got_target or target_element_content == "":
+        process_start = time.time()
+        if len(moves) > 0 and (moves[-1] != "1-0" and moves[-1] != "0-1" and moves[-1] != "1/2-1/2") or len(moves) == 0 and player == WHITE:
 
-    process_start = time.time()
+            if len(moves) % 2 == 1 and player == WHITE:
+                # print("Opponent is Black")
+                continue
+            elif len(moves) % 2 == 0 and player == BLACK:
+                # print("Opponent is White")
+                continue
 
-    if len(moves) > 0 and (moves[-1] != "1-0" and moves[-1] != "0-1" and moves[-1] != "1/2-1/2"):
-        time.sleep(random.randint(0, delay)/100.0)
+            if len(moves) > 1:
+                time_diff = abs(time.time() - last_move_time - 1)
+                print("Last move time:", time_diff)
+                if time_diff > 15:
+                    time_diff = 15
+                sleep_time = random.uniform(time_diff/5, time_diff/2)
+                time.sleep(sleep_time)
+            else:
+                last_move_time = time.time()
 
-        if len(moves) % 2 == 1 and player == WHITE:
-            print("Opponent is Black")
-            continue
-        elif len(moves) % 2 == 0 and player == BLACK:
-            print("Opponent is White")
-            continue
+            board = chess.Board(starting_FEN)
+            calculate_move = time.time()
 
-        board = chess.Board(starting_FEN)
-        calculate_move = time.time()
+            try:
+                for move in moves:
+                    board.push_san(move)
+            except Exception as e:
+                print(e)
+                continue
 
-        try:
-            for move in moves:
-                board.push_san(move)
-        except Exception as e:
-            print(e)
-            continue
+            print(board)
 
-        print(board)
+            engine.position(board)
+            depth = engine.go(depth = 6)
+            best_move = str(depth[0])
 
-        engine.position(board)
-        depth = engine.go(depth=4)
-        best_move = str(depth[0])
+            # print("Time to calculate move:", time.time() - calculate_move)
+            print("BEST MOVE:", best_move)
 
-        print("Time to calculate move:", time.time() - calculate_move)
-        print("BEST MOVE:", best_move)
+            if not move_only:
+                # makeMove(best_move, player)
 
-        if not move_only:
-            makeMove(best_move, player)
-    else:
-        print("Failed to find any moves")
-        delay = float(input("Enter speed in seconds: ")) * 100
-        player = input("Enter player color: ").lower()
-        move_count = 1
-        moves = []
+                seleniumMakeMove(browser, best_move, player)
 
-    print("Duration of processing:", time.time() - process_start)
+            last_move_time = time.time()
+        else:
+            print("Failed to find any moves")
+            # delay = float(input("Enter speed in seconds: ")) * 100
+            player = input("Enter player color: ").lower()
+            move_count = 1
+            moves = []
+
+        print("Duration of processing:", time.time() - process_start)
