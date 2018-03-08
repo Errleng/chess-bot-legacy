@@ -425,7 +425,7 @@ def main():
                         print("OBVIOUS MOVE 1")
                         time.sleep(random.randint(0, 1))
                     elif abs(second_score - third_score) >= 80:
-                        print("OBVIOUS MOVe 2")
+                        print("OBVIOUS MOVE 2")
                         time.sleep(random.randint(0, 1))
                         best_move = second_move
                     else:

@@ -92,7 +92,7 @@ def login(driver, username, password):
     print("Login complete")
 
 
-LAPTOP = True
+LAPTOP = False
 
 move_only = False
 
@@ -112,6 +112,7 @@ else:
 start_time = time.time()
 
 ENGINE_NAME = "stockfish_9_x64.exe"
+# ENGINE_NAME = "Rybkav2.3.2a.mp.x64.exe"
 
 engine = chess.uci.popen_engine(ENGINE_PATH + ENGINE_NAME)
 engine.uci()
@@ -121,10 +122,13 @@ engine.info_handlers.append(handler)
 
 print("Loaded", engine.name)
 
-engine.setoption({"Skill Level": 7})
-# engine.setoption({"UCI_LimitStrength": True})
-# engine.setoption({"UCI_Elo": 2000})
+engine.setoption({"MultiPV": 3})
 
+if ENGINE_NAME == "stockfish_9_x64.exe":
+    engine.setoption({"Skill Level": 7})
+# else:
+#     engine.setoption({"UCI_LimitStrength": True})
+#     engine.setoption({"UCI_ELO": 1600})
 
 # existing_instance = input("Existing browser instance?: ").lower()
 start_url = "https://www.chess.com/login_and_go?returnUrl=https%3A//www.chess.com/register"
@@ -151,8 +155,6 @@ browser.get(start_url)
 
 login(browser, "breachFirst", "foamfathom")
 
-time.sleep(2)
-
 browser.get("https://www.chess.com/live")
 
 # browser = webdriver.Firefox(executable_path = r"D:/Applications/geckodriver/geckodriver.exe")
@@ -174,7 +176,7 @@ moves = []
 last_move_time = time.time()
 
 while True:
-    time.sleep(1)
+    time.sleep(0.5)
 
     got_target = True
 
@@ -209,7 +211,7 @@ while True:
             # print(type(moves))
             # print
         except Exception as e:
-            print(e)
+            # print(e)
             # got_target = False
             break
 
@@ -227,16 +229,6 @@ while True:
         # print("Moves")
         # print(moves)
 
-        if len(moves) > 1:
-            time_diff = abs(time.time() - last_move_time - 1)
-            print("Last move time:", time_diff)
-            if time_diff > 15:
-                time_diff = 15
-            sleep_time = random.uniform(time_diff/5, time_diff/2)
-            time.sleep(sleep_time)
-        else:
-            last_move_time = time.time()
-
         board = chess.Board(starting_FEN)
         calculate_move = time.time()
 
@@ -247,11 +239,49 @@ while True:
             print(e)
             continue
 
-        # print(board)
+        print(board)
 
         engine.position(board)
-        depth = engine.go(depth = 6)
+        depth = engine.go(depth = 8)
         best_move = str(depth[0])
+
+        succeed_multiPV = True
+        obvious_move = False
+        try:
+            handler.multipv(2)
+            second_move = str(handler.info["pv"][2][0])
+            third_move = str(handler.info["pv"][3][0])
+
+            first_score = handler.info["score"][1].cp
+            second_score = handler.info["score"][2].cp
+            third_score = handler.info["score"][3].cp
+
+            if abs(first_score - second_score) >= 80:
+                print("OBVIOUS MOVE 1")
+                obvious_move = True
+            if abs(second_score - third_score) >= 80:
+                print("OBVIOUS MOVE 2")
+                best_move = second_move
+                obvious_move = True
+        except Exception as e:
+            print("Exception:", e)
+            print(handler.info)
+            succeed_multiPV = False
+            pass
+
+        if len(moves) > 1:
+            # if succeed_multiPV and not obvious_move:
+            if len(moves) < 10:
+                time.sleep(random.uniform(0.1, 1))
+            else:
+                time_diff = abs(time.time() - last_move_time - 1)
+                print("Last move time:", time_diff)
+                if time_diff > 15:
+                    time_diff = 15
+                sleep_time = random.uniform(time_diff / 5, time_diff / 2)
+                time.sleep(sleep_time)
+            # else:
+                # time.sleep(random.uniform(0.1, 2))
 
         # print("Time to calculate move:", time.time() - calculate_move)
         print("BEST MOVE:", best_move)
