@@ -259,12 +259,18 @@ while True:
             if abs(first_score - second_score) >= 80:
                 print("OBVIOUS MOVE 1")
                 obvious_move = True
-            if abs(second_score - third_score) >= 80:
+            elif abs(second_score - third_score) >= 80:
                 print("OBVIOUS MOVE 2")
                 best_move = second_move
                 obvious_move = True
+            else:
+                move_chosen = random.randint(1, 3)
+                if move_chosen == 2:
+                    best_move = second_move
+                elif move_chosen == 3:
+                    best_move = third_move
         except Exception as e:
-            print("Exception:", e)
+            print("MultiPV exception:", e)
             print(handler.info)
             succeed_multiPV = False
             pass
@@ -285,6 +291,10 @@ while True:
 
         # print("Time to calculate move:", time.time() - calculate_move)
         print("BEST MOVE:", best_move)
+        try:
+            print("Evaluation:", handler.info["score"][1].cp)
+        except Exception as e:
+            print("Evaluation exception:", e)
 
         if not move_only:
             # makeMove(best_move, player)
