@@ -118,14 +118,20 @@ def seleniumCreateBoardCanvas(driver):
                            "context2.globalAlpha = 0.3;"
                            , chessboard)
     driver.execute_script("window.canvas_arrow = function (context, fromx, fromy, tox, toy){"
-                          "var headlen = 10;"
+                          "var headlen = 20;"
                           "var angle = Math.atan2(toy - fromy, tox - fromx);"
+                          "context.beginPath();"
                           "context.lineWidth = 5;"
                           "context.moveTo(fromx, fromy);"
                           "context.lineTo(tox, toy);"
-                          "context.lineTo(tox - headlen*Math.cos(angle-Math.PI/6), toy-headlen*Math.sin(angle-Math.PI/6));"
                           "context.moveTo(tox, toy);"
-                          "context.lineTo(tox - headlen*Math.cos(angle+Math.PI/6), toy-headlen*Math.sin(angle+Math.PI/6));"
+                          "context.lineTo(tox - headlen * Math.cos(angle - Math.PI / 7), toy-headlen * Math.sin(angle - Math.PI / 7));"
+                          "context.lineTo(tox - headlen * Math.cos(angle + Math.PI / 7), toy-headlen * Math.sin(angle + Math.PI / 7));"
+                          "context.lineTo(tox, toy);"
+                          "context.lineTo(tox - headlen * Math.cos(angle - Math.PI / 7), toy-headlen * Math.sin(angle - Math.PI / 7));"
+                          "context.stroke();"
+                          "context.fillStyle = 'black';"
+                          "context.fill();"
                           "}"
                           , chessboard)
 
@@ -178,7 +184,7 @@ def seleniumDrawMultipleMoves(driver, moves, side, colours, selected_canvas):
     board_x = chessboard.location.get("x")
     board_y = chessboard.location.get("y")
 
-    coords = []
+    # coords = []
     arrow_coords = []
 
     for i in range(len(moves)):
@@ -225,9 +231,7 @@ def seleniumDrawMultipleMoves(driver, moves, side, colours, selected_canvas):
     for i in range(len(arrow_coords)):
         move_coords = arrow_coords[i]
         driver.execute_script("context" + str_current_context + ".globalAlpha = " + str(1 - i * 0.3) + ";"
-                              "context" + str_current_context + ".beginPath();"
                               "canvas_arrow(context" + str_current_context + ", " + move_coords[0] + ", " + move_coords[1] + ", " + move_coords[2] + ", " + move_coords[3] + ");"
-                              "context" + str_current_context + ".stroke();"
                               , chessboard)
     if selected_canvas == 1:
         driver.execute_script("context2.clearRect(0, 0, canvas2.width, canvas2.height);"
@@ -299,7 +303,15 @@ start_time = time.time()
 
 # ENGINE_NAME = "stockfish_9_x64.exe"
 # ENGINE_NAME = "Rybkav2.3.2a.mp.x64.exe"
-ENGINE_NAME = "DeepHiarcs14WCSC_AC4.exe"
+
+# ENGINE_PATH = r"D:\Documents\SourceTree\ChessBot\Engines\Rodent III"
+# ENGINE_NAME = "/rodent_III_x64.exe"
+
+# ENGINE_PATH += "Rodent III - Strangler/"
+# ENGINE_NAME = "rodent_III_x64.exe"
+
+ENGINE_PATH += "OpenTal/"
+ENGINE_NAME = "opental_x64plain.exe"
 
 engine = chess.uci.popen_engine(ENGINE_PATH + ENGINE_NAME)
 engine.uci()
@@ -329,8 +341,8 @@ except TimeoutException:
 
 
 # username, password = "shortbr", "malifeinc"
-username, password = "rimkill", "failure"
-# login(browser, "breachFirst", "foamfathom")
+# username, password = "rimkill", "failure"
+username, password = "breachFirst", "foamfathom"
 login(browser, username, password)
 
 
@@ -363,15 +375,18 @@ move_count = 1
 moves = []
 last_move_time = time.time()
 
-engine.setoption({"MultiPV": 3})
+# engine.setoption({"MultiPV": 3})
+multiPV_available = False
 
 multiPV_move_colours = ["'blue'", "'green'", "'red'"]
 
 seleniumCreateBoardCanvas(browser)
 
+new_position = 2
+
 while True:
     try:
-        time.sleep(0.5)
+        time.sleep(0.25)
         # player = seleniumFindPlayerColor(browser)
         print("Player is", player)
 
@@ -405,6 +420,7 @@ while True:
                 if target_element_content != "":
                     moves.append(target_element_content)
                     move_count += 1
+                    new_position = 2
                 else:
                     TURN_BLACK = True
                     break
@@ -423,6 +439,12 @@ while True:
 
         process_start = time.time()
         if found_first_move and len(moves) > 0 and (moves[-1] != "1-0" and moves[-1] != "0-1" and moves[-1] != "1/2-1/2") or len(moves) == 0 and player == WHITE:
+            if new_position >= 5:
+                print("Position has not changed")
+                continue
+            else:
+                new_position += 1
+
             if not move_only:
                 if TURN_BLACK and player == WHITE:
                     continue
@@ -443,43 +465,44 @@ while True:
                 continue
 
             print(board)
-
             engine.position(board)
-            depth = engine.go(depth = 8)
+            depth = engine.go(depth=new_position * 2)
             best_move = str(depth[0])
+            print("Depth:", new_position * 2)
 
-            succeed_multiPV = True
-            obvious_move = False
-            if difficulty == 0:
-                try:
-                    handler.multipv(2)
-                    second_move = str(handler.info["pv"][2][0])
-                    third_move = str(handler.info["pv"][3][0])
+            if multiPV_available:
+                succeed_multiPV = True
+                obvious_move = False
+                if difficulty == 0:
+                    try:
+                        handler.multipv(2)
+                        second_move = str(handler.info["pv"][2][0])
+                        third_move = str(handler.info["pv"][3][0])
 
-                    first_score = handler.info["score"][1].cp
-                    second_score = handler.info["score"][2].cp
-                    third_score = handler.info["score"][3].cp
+                        first_score = handler.info["score"][1].cp
+                        second_score = handler.info["score"][2].cp
+                        third_score = handler.info["score"][3].cp
 
-                    if abs(first_score - second_score) >= 80:
-                        print("OBVIOUS MOVE 1")
-                        obvious_move = True
-                    elif abs(second_score - third_score) >= 80:
-                        print("OBVIOUS MOVE 2")
-                        best_move = second_move
-                        obvious_move = True
-                    else:
-                        move_chosen = random.randint(1, 3)
-                        if move_chosen == 2:
+                        if abs(first_score - second_score) >= 80:
+                            print("OBVIOUS MOVE 1")
+                            obvious_move = True
+                        elif abs(second_score - third_score) >= 80:
+                            print("OBVIOUS MOVE 2")
                             best_move = second_move
-                        elif move_chosen == 3:
-                            best_move = third_move
-                except Exception as e:
-                    print("MultiPV exception:", e)
-                    print(handler.info)
-                    succeed_multiPV = False
-                    pass
+                            obvious_move = True
+                        else:
+                            move_chosen = random.randint(1, 3)
+                            if move_chosen == 2:
+                                best_move = second_move
+                            elif move_chosen == 3:
+                                best_move = third_move
+                    except Exception as e:
+                        print("MultiPV exception:", e)
+                        print(handler.info)
+                        succeed_multiPV = False
+                        pass
 
-            if len(moves) > 1 and not move_only:
+            if not move_only and len(moves) > 1:
                 if len(moves) < 10:
                     time.sleep(random.uniform(0.1, 1))
                 else:
@@ -501,30 +524,33 @@ while True:
                     print("Evaluation exception:", e)
                 seleniumMakeMove(browser, best_move, player)
             else:
-                try:
-                    handler.multipv(2)
-                    multiPV_moves = []
-                    multiPV_moves.append(best_move)
-                    multiPV_moves.append(str(handler.info["pv"][2][0]))
-                    multiPV_moves.append(str(handler.info["pv"][3][0]))
+                if multiPV_available:
+                    try:
+                        handler.multipv(2)
+                        multiPV_moves = []
+                        multiPV_moves.append(best_move)
+                        multiPV_moves.append(str(handler.info["pv"][2][0]))
+                        multiPV_moves.append(str(handler.info["pv"][3][0]))
 
-                    print("Moves")
-                    for move in multiPV_moves:
-                        print(move, end=" ")
-                    print()
+                        print("Moves")
+                        for move in multiPV_moves:
+                            print(move, end=" ")
+                        print()
 
-                    scores = []
-                    for i in range(1, 4):
-                        scores.append(handler.info["score"][i].cp)
-                    print("Scores")
-                    for score in scores:
-                        print(score, end=" ")
-                    print()
-                    canvas_number = seleniumDrawMultipleMoves(browser, multiPV_moves, player, multiPV_move_colours, canvas_number)
-                except Exception as e:
+                        scores = []
+                        for i in range(1, 4):
+                            scores.append(handler.info["score"][i].cp)
+                        print("Scores")
+                        for score in scores:
+                            print(score, end=" ")
+                        print()
+                        canvas_number = seleniumDrawMultipleMoves(browser, multiPV_moves, player, multiPV_move_colours, canvas_number)
+                    except Exception as e:
+                        seleniumDrawMove(browser, best_move, player, "'blue'")
+                        print("MultiPV failed for move_only")
+                        print(e)
+                else:
                     seleniumDrawMove(browser, best_move, player, "'blue'")
-                    print("MultiPV failed for move_only")
-                    print(e)
             last_move_time = time.time()
         else:
             print("Failed to find any moves")
