@@ -6,8 +6,10 @@ import win32api
 import win32con
 
 import chess.uci
+import traceback
 
 global BOARD_DIM, PIECE_DIM, LEFT_OFFSET, TOP_OFFSET
+global engine, handler
 
 
 def clickDown(x, y):
@@ -96,27 +98,40 @@ def seleniumCreateBoardCanvas(driver):
     board_y = chessboard.location.get("y")
     print("Board Dim: " + str_board_side, "Board X: " + str(board_x), "Board Y: " + str(board_y))
     driver.execute_script("window.canvas1 = document.createElement('canvas');"
-                           "canvas1.width = window.innerWidth; canvas1.height = window.innerHeight;"
-                           "canvas1.style.width = '100%'; canvas1.style.height = '100%';"
-                           "canvas1.style.position =  'absolute';"
-                           "canvas1.style.left = 0; canvas1.style.top = 0;"
-                           "canvas1.style.zIndex = 100000;"
-                           "canvas1.style.pointerEvents = 'none';"
-                           "document.body.appendChild(canvas1);"
-                           "window.context1 = canvas1.getContext('2d');"
-                           "context1.globalAlpha = 0.3;"
+                          "canvas1.width = window.innerWidth; canvas1.height = window.innerHeight;"
+                          "canvas1.style.width = '100%'; canvas1.style.height = '100%';"
+                          "canvas1.style.position =  'absolute';"
+                          "canvas1.style.left = 0; canvas1.style.top = 0;"
+                          "canvas1.style.zIndex = 100000;"
+                          "canvas1.style.pointerEvents = 'none';"
+                          "document.body.appendChild(canvas1);"
+                          "window.context1 = canvas1.getContext('2d');"
+                          "context1.globalAlpha = 0.3;"
+                          "context1.font = '30px Arial';"
     
-                           "window.canvas2 = document.createElement('canvas');"
-                           "canvas2.width = window.innerWidth; canvas2.height = window.innerHeight;"
-                           "canvas2.style.width = '100%'; canvas2.style.height = '100%';"
-                           "canvas2.style.position =  'absolute';"
-                           "canvas2.style.left = 0; canvas2.style.top = 0;"
-                           "canvas2.style.zIndex = 100000;"
-                           "canvas2.style.pointerEvents = 'none';"
-                           "document.body.appendChild(canvas2);"
-                           "window.context2 = canvas2.getContext('2d');"
-                           "context2.globalAlpha = 0.3;"
-                           , chessboard)
+                          "window.canvas2 = document.createElement('canvas');"
+                          "canvas2.width = window.innerWidth; canvas2.height = window.innerHeight;"
+                          "canvas2.style.width = '100%'; canvas2.style.height = '100%';"
+                          "canvas2.style.position =  'absolute';"
+                          "canvas2.style.left = 0; canvas2.style.top = 0;"
+                          "canvas2.style.zIndex = 100000;"
+                          "canvas2.style.pointerEvents = 'none';"
+                          "document.body.appendChild(canvas2);"
+                          "window.context2 = canvas2.getContext('2d');"
+                          "context2.globalAlpha = 0.3;"
+                          "context2.font = '30px Arial';"
+                          "window.canvas3 = document.createElement('canvas');"
+                          "canvas3.width = window.innerWidth; canvas3.height = window.innerHeight;"
+                          "canvas3.style.width = '100%'; canvas3.style.height = '100%';"
+                          "canvas3.style.position =  'absolute';"
+                          "canvas3.style.left = 0; canvas3.style.top = 0;"
+                          "canvas3.style.zIndex = 100000;"
+                          "canvas3.style.pointerEvents = 'none';"
+                          "document.body.appendChild(canvas3);"
+                          "window.context3 = canvas3.getContext('2d');"
+                          "context3.font = '30px Arial';"
+                          "context3.fillStyle = 'white';"
+                          , chessboard)
     driver.execute_script("window.canvas_arrow = function (context, fromx, fromy, tox, toy){"
                           "var headlen = 20;"
                           "var angle = Math.atan2(toy - fromy, tox - fromx);"
@@ -249,17 +264,10 @@ def seleniumDrawMultipleMoves(driver, moves, side, colours, selected_canvas):
         return 1
 
 
-def seleniumClearCanvas(driver, selected_canvas):
-    try:
-        chessboard = driver.find_element_by_class_name("chessboard-container")
-    except Exception as exception:
-        print("Failed to draw move")
-        print(exception)
-        return
-    if selected_canvas == 1:
-        driver.execute_script("context1.clearRect(0, 0, canvas1.width, canvas1.height);", chessboard)
-    elif selected_canvas == 2:
-        driver.execute_script("context2.clearRect(0, 0, canvas2.width, canvas2.height);", chessboard)
+def seleniumClearCanvas(driver, canvas_number):
+    str_canvas = "canvas" + str(canvas_number)
+    str_context = "context" + str(canvas_number)
+    driver.execute_script(str_context + ".clearRect(0, 0, " + str_canvas + ".width, " + str_canvas + ".height);")
 
 
 def login(driver, username, password):
@@ -281,6 +289,84 @@ def seleniumFindPlayerColor(driver):
     return "white"
 
 
+def seleniumEvaluateMoves(driver, side):
+    try:
+        arrow = driver.find_element_by_class_name("chessBoardArrow")
+    except Exception as exception:
+        # print("Failed to get arrow element")
+        # print(exception)
+        return None
+
+    try:
+        chessboard = driver.find_element_by_class_name("chessboard-container")
+    except Exception as exception:
+        print("Failed get board element")
+        print(exception)
+        return None
+
+    board_side = chessboard.size.get("width")
+    piece_side = board_side // 8
+    board_x = chessboard.location.get("x")
+    board_y = chessboard.location.get("y")
+
+    arrow_x1 = arrow.location.get("x")
+    arrow_y1 = arrow.location.get("y")
+    arrow_x2 = arrow.size.get("width") + arrow_x1 - piece_side
+    arrow_y2 = arrow.size.get("height") + arrow_y1 - piece_side
+
+    if side == 'white':
+        starting_square = chr(int((arrow_x1 - board_x) / piece_side) + 97) + str(8 - int((arrow_y1 - board_y) / piece_side))
+        ending_square = chr(int((arrow_x2 - board_x) / piece_side) + 97) + str(8 - int((arrow_y2 - board_y) / piece_side))
+
+        starting_square2 = chr(int((arrow_x1 - board_x) / piece_side) + 97) + str(8 - int((arrow_y2 - board_y) / piece_side))
+        ending_square2 = chr(int((arrow_x2 - board_x) / piece_side) + 97) + str(8 - int((arrow_y1 - board_y) / piece_side))
+    elif side == 'black':
+        starting_square = chr(7 - int((arrow_x1 - board_x) / piece_side) + 97) + str(1 + int((arrow_y1 - board_y) / piece_side))
+        ending_square = chr(7 - int((arrow_x2 - board_x) / piece_side) + 97) + str(1 + int((arrow_y2 - board_y) / piece_side))
+
+        starting_square2 = chr(7 - int((arrow_x1 - board_x) / piece_side) + 97) + str(1 + int((arrow_y2 - board_y) / piece_side))
+        ending_square2 = chr(7 - int((arrow_x2 - board_x) / piece_side) + 97) + str(1 + int((arrow_y1 - board_y) / piece_side))
+
+    possible_moves = []
+    possible_moves.append(chess.Move.from_uci(starting_square + ending_square))
+    possible_moves.append(chess.Move.from_uci(ending_square + starting_square))
+    possible_moves.append(chess.Move.from_uci(starting_square2 + ending_square2))
+    possible_moves.append(chess.Move.from_uci(ending_square2 + starting_square2))
+    for i in range(len(possible_moves)):
+        if possible_moves[i] in board.legal_moves:
+            return possible_moves[i]
+    print("Illegal moves", ', '.join(map(str, possible_moves)))
+
+
+def seleniumDrawText(driver, textList):
+    try:
+        chessboard = driver.find_element_by_class_name("chessboard-container")
+    except Exception as exception:
+        print("Failed get board element")
+        print(exception)
+        return None
+
+    board_x = chessboard.location.get("x")
+    board_y = chessboard.location.get("y")
+    driver.execute_script("context3.clearRect(0, 0, canvas3.width, canvas3.height);")
+    for i in range(len(textList)):
+        driver.execute_script("context3.fillText('" + str(textList[i]) + "', " + str(board_x + 300 + (i * 100)) + ", " + str(board_y - 25) + ");"
+                              , chessboard)
+
+
+def evaluate_position(position, depth):
+    global engine, handler
+    engine.position(position)
+    try:
+        position_evaluation = engine.go(depth=depth)
+        eval = handler.info["score"][1].cp/100.0
+    except Exception as e:
+        print("Exception in evaluate_position:", e)
+        return
+    print(position)
+    return eval
+
+
 LAPTOP = False
 
 move_only = True
@@ -298,10 +384,11 @@ else:
     LEFT_OFFSET = 285
     ENGINE_PATH = "D:/Documents/SourceTree/ChessBot/Engines/"
 
+
 start_time = time.time()
 
 
-# ENGINE_NAME = "stockfish_9_x64.exe"
+ENGINE_NAME = "stockfish_9_x64.exe"
 # ENGINE_NAME = "Rybkav2.3.2a.mp.x64.exe"
 
 # ENGINE_PATH = r"D:\Documents\SourceTree\ChessBot\Engines\Rodent III"
@@ -310,8 +397,8 @@ start_time = time.time()
 # ENGINE_PATH += "Rodent III - Strangler/"
 # ENGINE_NAME = "rodent_III_x64.exe"
 
-ENGINE_PATH += "OpenTal/"
-ENGINE_NAME = "opental_x64plain.exe"
+# ENGINE_PATH += "OpenTal/"
+# ENGINE_NAME = "opental_x64plain.exe"
 
 engine = chess.uci.popen_engine(ENGINE_PATH + ENGINE_NAME)
 engine.uci()
@@ -320,8 +407,8 @@ engine.info_handlers.append(handler)
 print("Loaded", engine.name)
 
 
-if ENGINE_NAME == "stockfish_9_x64.exe":
-    engine.setoption({"Skill Level": 7})
+# if ENGINE_NAME == "stockfish_9_x64.exe":
+#     engine.setoption({"Skill Level": 7})
 # else:
 #     engine.setoption({"UCI_LimitStrength": True})
 #     engine.setoption({"UCI_ELO": 1600})
@@ -340,9 +427,9 @@ except TimeoutException:
     browser.execute_script("window.stop();")
 
 
-# username, password = "shortbr", "malifeinc"
+username, password = "shortbr", "malifeinc"
 # username, password = "rimkill", "failure"
-username, password = "breachFirst", "foamfathom"
+# username, password = "breachFirst", "foamfathom"
 login(browser, username, password)
 
 
@@ -360,6 +447,7 @@ move_str = "1. "
 starting_FEN = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
 
 # delay = float(input("Enter speed in seconds: ")) * 100
+
 if not move_only:
     player = input("Enter player color: ").lower()
 else:
@@ -375,8 +463,8 @@ move_count = 1
 moves = []
 last_move_time = time.time()
 
-# engine.setoption({"MultiPV": 3})
-multiPV_available = False
+engine.setoption({"MultiPV": 3})
+multiPV_available = True
 
 multiPV_move_colours = ["'blue'", "'green'", "'red'"]
 
@@ -401,12 +489,14 @@ while True:
         TURN_BLACK = False
         found_first_move = True
         player = seleniumFindPlayerColor(browser)
+
         try:
             ending_str = "[id$=gotomoveid_0_1]"
             start_move = browser.find_element_by_css_selector(ending_str)
         except:
-            print("Could not get first move")
+            # print("Could not get first move")
             found_first_move = False
+
         while True:
             try:
                 # target_element = browser.find_elements_by_class_name(target_class_name)
@@ -439,11 +529,6 @@ while True:
 
         process_start = time.time()
         if found_first_move and len(moves) > 0 and (moves[-1] != "1-0" and moves[-1] != "0-1" and moves[-1] != "1/2-1/2") or len(moves) == 0 and player == WHITE:
-            if new_position >= 5:
-                print("Position has not changed")
-                continue
-            else:
-                new_position += 1
 
             if not move_only:
                 if TURN_BLACK and player == WHITE:
@@ -464,24 +549,58 @@ while True:
                 print(e)
                 continue
 
-            print(board)
+            # if new_position >= 5:
+            #     # print("Position has not changed")
+            #     continue
+            # else:
+            #     new_position += 1
+            if not multiPV_available:
+                search_depth = new_position * 2
+            else:
+                search_depth = 8
             engine.position(board)
-            depth = engine.go(depth=new_position * 2)
-            best_move = str(depth[0])
-            print("Depth:", new_position * 2)
+            current_evaluation = engine.go(depth=search_depth)
+            best_move = str(current_evaluation[0])
+            print("Best move:", best_move)
+
+            if board.turn:
+                turn = "White"
+                predicted_turn = "Black"
+            else:
+                turn = "Black"
+                predicted_turn = "White"
+
+            print(board)
+            current_score = handler.info["score"][1].cp / 100.0
+            print("Current evaluation with " + turn + ":", current_score)
+
+            evals = [current_score]
+
+            legal_move = seleniumEvaluateMoves(browser, player)
+            if legal_move is not None:
+                board.push(legal_move)
+                predicted_score = evaluate_position(board, 8)
+                if predicted_score is None:
+                    print("Bad move, possibly mate")
+                    evals.append("Horrible")
+                else:
+                    print("Predicted evaluation for " + str(legal_move) + " with " + predicted_turn + ":", predicted_score)
+                    evals.append(-predicted_score)
+
+            seleniumDrawText(browser, evals)
+
+            obvious_move = False
 
             if multiPV_available:
-                succeed_multiPV = True
-                obvious_move = False
                 if difficulty == 0:
                     try:
                         handler.multipv(2)
-                        second_move = str(handler.info["pv"][2][0])
-                        third_move = str(handler.info["pv"][3][0])
-
-                        first_score = handler.info["score"][1].cp
-                        second_score = handler.info["score"][2].cp
-                        third_score = handler.info["score"][3].cp
+                        with handler as info:
+                            second_move = str(info["pv"][2][0])
+                            third_move = str(info["pv"][3][0])
+                            first_score = info["score"][1].cp
+                            second_score = info["score"][2].cp
+                            third_score = handler.info["score"][3].cp
 
                         if abs(first_score - second_score) >= 80:
                             print("OBVIOUS MOVE 1")
@@ -499,11 +618,10 @@ while True:
                     except Exception as e:
                         print("MultiPV exception:", e)
                         print(handler.info)
-                        succeed_multiPV = False
                         pass
 
             if not move_only and len(moves) > 1:
-                if len(moves) < 10:
+                if len(moves) < 10 or obvious_move:
                     time.sleep(random.uniform(0.1, 1))
                 else:
                     time_diff = abs(time.time() - last_move_time - 1)
@@ -519,7 +637,7 @@ while True:
                 # makeMove(best_move, player)
                 print("Best Move:", best_move)
                 try:
-                    print("Evaluation:", handler.info["score"][1].cp)
+                    print("Evaluation:", handler.info["score"][1].cp/100.0)
                 except Exception as e:
                     print("Evaluation exception:", e)
                 seleniumMakeMove(browser, best_move, player)
@@ -539,7 +657,7 @@ while True:
 
                         scores = []
                         for i in range(1, 4):
-                            scores.append(handler.info["score"][i].cp)
+                            scores.append(handler.info["score"][i].cp/100.0)
                         print("Scores")
                         for score in scores:
                             print(score, end=" ")
@@ -567,5 +685,7 @@ while True:
     except Exception as exception:
         print("Loop Exception:", exception)
         print("Moves:", moves)
+        print("Engine handler info:", handler.info)
         move_count = 1
         moves = []
+        print(traceback.print_exc())
