@@ -129,7 +129,7 @@ def seleniumCreateBoardCanvas(driver):
                           "canvas3.style.pointerEvents = 'none';"
                           "document.body.appendChild(canvas3);"
                           "window.context3 = canvas3.getContext('2d');"
-                          "context3.font = '30px Arial';"
+                          "context3.font = '20px Arial';"
                           "context3.fillStyle = 'white';"
                           , chessboard)
     driver.execute_script("window.canvas_arrow = function (context, fromx, fromy, tox, toy){"
@@ -328,17 +328,27 @@ def seleniumEvaluateMoves(driver, side):
         ending_square2 = chr(7 - int((arrow_x2 - board_x) / piece_side) + 97) + str(1 + int((arrow_y1 - board_y) / piece_side))
 
     possible_moves = []
+    legal_moves = []
     possible_moves.append(chess.Move.from_uci(starting_square + ending_square))
     possible_moves.append(chess.Move.from_uci(ending_square + starting_square))
     possible_moves.append(chess.Move.from_uci(starting_square2 + ending_square2))
     possible_moves.append(chess.Move.from_uci(ending_square2 + starting_square2))
-    for i in range(len(possible_moves)):
-        if possible_moves[i] in board.legal_moves:
-            return possible_moves[i]
-    print("Illegal moves", ', '.join(map(str, possible_moves)))
+
+    print("Possible moves", [str(x) for x in possible_moves])
+
+    possible_moves = set(possible_moves)
+    for move in possible_moves:
+        if move in board.legal_moves:
+            legal_moves.append(move)
+
+    if len(legal_moves) > 0:
+        return legal_moves
+
+    print("All illegal moves", ', '.join(map(str, possible_moves)))
+    return None
 
 
-def seleniumDrawText(driver, textList):
+def seleniumDrawText(driver, subTexts, superTexts):
     try:
         chessboard = driver.find_element_by_class_name("chessboard-container")
     except Exception as exception:
@@ -348,10 +358,19 @@ def seleniumDrawText(driver, textList):
 
     board_x = chessboard.location.get("x")
     board_y = chessboard.location.get("y")
+
+    subtext_x = board_x + 300
+    subtext_y = board_y - 10
+    supertext_x = board_x + 300
+    supertext_y = board_y - 40
+
     driver.execute_script("context3.clearRect(0, 0, canvas3.width, canvas3.height);")
-    for i in range(len(textList)):
-        driver.execute_script("context3.fillText('" + str(textList[i]) + "', " + str(board_x + 300 + (i * 100)) + ", " + str(board_y - 25) + ");"
-                              , chessboard)
+    for i in range(len(subTexts)):
+        driver.execute_script("context3.fillText('" + str(subTexts[i]) + "', " + str(subtext_x + (i * 100)) + ", " + str(subtext_y) + ");"
+            , chessboard)
+    for i in range(len(superTexts)):
+        driver.execute_script("context3.fillText('" + str(superTexts[i]) + "', " + str(subtext_x + (i * 100)) + ", " + str(supertext_y) + ");"
+            , chessboard)
 
 
 def evaluate_position(position, depth):
@@ -388,17 +407,19 @@ else:
 start_time = time.time()
 
 
-ENGINE_NAME = "stockfish_9_x64.exe"
+# ENGINE_NAME = "stockfish_9_x64.exe"
 # ENGINE_NAME = "Rybkav2.3.2a.mp.x64.exe"
 
 # ENGINE_PATH = r"D:\Documents\SourceTree\ChessBot\Engines\Rodent III"
 # ENGINE_NAME = "/rodent_III_x64.exe"
 
-# ENGINE_PATH += "Rodent III - Strangler/"
-# ENGINE_NAME = "rodent_III_x64.exe"
+ENGINE_PATH += "Rodent III - Strangler/"
+ENGINE_NAME = "rodent_III_x64.exe"
 
 # ENGINE_PATH += "OpenTal/"
 # ENGINE_NAME = "opental_x64plain.exe"
+
+multiPV_available = False
 
 engine = chess.uci.popen_engine(ENGINE_PATH + ENGINE_NAME)
 engine.uci()
@@ -464,7 +485,6 @@ moves = []
 last_move_time = time.time()
 
 engine.setoption({"MultiPV": 3})
-multiPV_available = True
 
 multiPV_move_colours = ["'blue'", "'green'", "'red'"]
 
@@ -572,22 +592,26 @@ while True:
 
             print(board)
             current_score = handler.info["score"][1].cp / 100.0
+            if current_score is None:
+                current_score = 100
             print("Current evaluation with " + turn + ":", current_score)
 
-            evals = [current_score]
+            evaluations = [current_score]
+            legal_moves = (seleniumEvaluateMoves(browser, player))
+            if legal_moves is not None:
+                for move in legal_moves:
+                    board.push(move)
+                    predicted_score = evaluate_position(board, 8)
+                    if predicted_score is None:
+                        predicted_score = 100
+                    print("Predicted evaluation for " + str(move) + " with " + predicted_turn + ":", predicted_score)
+                    evaluations.append(-predicted_score)
+                    board.pop()
+            else:
+                legal_moves = []
+            legal_moves.insert(0, turn)
 
-            legal_move = seleniumEvaluateMoves(browser, player)
-            if legal_move is not None:
-                board.push(legal_move)
-                predicted_score = evaluate_position(board, 8)
-                if predicted_score is None:
-                    print("Bad move, possibly mate")
-                    evals.append("Horrible")
-                else:
-                    print("Predicted evaluation for " + str(legal_move) + " with " + predicted_turn + ":", predicted_score)
-                    evals.append(-predicted_score)
-
-            seleniumDrawText(browser, evals)
+            seleniumDrawText(browser, evaluations, legal_moves)
 
             obvious_move = False
 
