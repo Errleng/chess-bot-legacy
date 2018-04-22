@@ -8447,3 +8447,37 @@ Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\open
 Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
 1524341560398	Marionette	INFO	Listening on port 56355
 1524341561480	Marionette	WARN	TLS certificate errors will be ignored for this session
+1524397349859	geckodriver	INFO	geckodriver 0.19.1
+1524397349927	geckodriver	INFO	Listening on 127.0.0.1:49898
+1524397353050	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "D:\\TEMP\\rust_mozprofile.Evofj7nUmJir"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524397354220	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524397359664	Marionette	INFO	Listening on port 49906
+1524397360932	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://betacssjs.chesscomfiles.com/bundles/app/js/common.dll.4d7fff84.js, line 29: TypeError: n is undefined
+JavaScript error: https://betacssjs.chesscomfiles.com/bundles/app/js/common.dll.4d7fff84.js, line 29: TypeError: n is undefined
+JavaScript error: https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&glade_req=1&glv=26&dt=1524397503950&output=html&iu=%2F1082185%2F160X600-Top-Right&sz=160x600&sfv=1-0-10&correlator=1210043112454909&adk=4254123207&biw=1920&bih=966&adx=1760&ady=0&oid=3&u_sd=1&ifi=1&click=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjssOJS69DsFOZ0r0DpaDE77tsjp0yTzPRlIEE5LLKDBg77z7U3-Vv7ZjcZhEzKabnGT6MiRQKPT4rF56I952D2V72_MbeE2M62Dp9YmC4AToavxzndi-u7QkRHHhsX5YMXCm2CT5y5VhRAHKQQV0PproQbWTps_DnO5KMnqMNJhX4OnDpfANIz6VRHP7KDtS4RrY5OvpS7NMHTzYtMF5oDirp0hg7n5cXF50rR_U%26sig%3DCg0ArKJSzJkE2eIPQuJcEAE%26urlfix%3D1%26adurl%3D&nhd=1&url=https%3A%2F%2Fwww.chess.com%2Flive&top=https%3A%2F%2Fwww.chess.com%2Flive&ref=https%3A%2F%2Fwww.chess.com%2Flive, line 1: ReferenceError: osdlfm is not defined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1524397573975	geckodriver	INFO	geckodriver 0.19.1
+1524397573990	geckodriver	INFO	Listening on 127.0.0.1:52249
+1524397577286	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "D:\\TEMP\\rust_mozprofile.n8OLQYECouEI"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524397579008	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524397584366	Marionette	INFO	Listening on port 52257
+1524397585336	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8944, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8944, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10356, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10356, Chrome_C[Child 9960, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9960, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
