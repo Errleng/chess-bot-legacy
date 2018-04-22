@@ -382,7 +382,7 @@ def evaluate_position(position, depth):
     except Exception as e:
         print("Exception in evaluate_position:", e)
         return
-    print(position)
+    # print(position)
     return eval
 
 
@@ -407,19 +407,19 @@ else:
 start_time = time.time()
 
 
-# ENGINE_NAME = "stockfish_9_x64.exe"
+ENGINE_NAME = "stockfish_9_x64.exe"
 # ENGINE_NAME = "Rybkav2.3.2a.mp.x64.exe"
 
 # ENGINE_PATH = r"D:\Documents\SourceTree\ChessBot\Engines\Rodent III"
 # ENGINE_NAME = "/rodent_III_x64.exe"
 
-ENGINE_PATH += "Rodent III - Strangler/"
-ENGINE_NAME = "rodent_III_x64.exe"
+# ENGINE_PATH += "Rodent III - Strangler/"
+# ENGINE_NAME = "rodent_III_x64.exe"
 
 # ENGINE_PATH += "OpenTal/"
 # ENGINE_NAME = "opental_x64plain.exe"
 
-multiPV_available = False
+multiPV_available = True
 
 engine = chess.uci.popen_engine(ENGINE_PATH + ENGINE_NAME)
 engine.uci()
@@ -428,11 +428,11 @@ engine.info_handlers.append(handler)
 print("Loaded", engine.name)
 
 
-# if ENGINE_NAME == "stockfish_9_x64.exe":
-#     engine.setoption({"Skill Level": 7})
-# else:
-#     engine.setoption({"UCI_LimitStrength": True})
-#     engine.setoption({"UCI_ELO": 1600})
+if ENGINE_NAME == "stockfish_9_x64.exe":
+    engine.setoption({"Skill Level": 7})
+else:
+    engine.setoption({"UCI_LimitStrength": True})
+    engine.setoption({"UCI_ELO": 1600})
 
 
 start_url = "https://www.chess.com/login_and_go?returnUrl=https%3A//www.chess.com/register"
@@ -448,8 +448,8 @@ except TimeoutException:
     browser.execute_script("window.stop();")
 
 
-username, password = "shortbr", "malifeinc"
-# username, password = "rimkill", "failure"
+# username, password = "shortbr", "malifeinc"
+username, password = "rimkill", "failure"
 # username, password = "breachFirst", "foamfathom"
 login(browser, username, password)
 
@@ -469,10 +469,7 @@ starting_FEN = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
 
 # delay = float(input("Enter speed in seconds: ")) * 100
 
-if not move_only:
-    player = input("Enter player color: ").lower()
-else:
-    player = "white"
+player = "white"
 
 difficulty = 1
 canvas_number = 1
@@ -494,9 +491,9 @@ new_position = 2
 
 while True:
     try:
-        time.sleep(0.25)
+        time.sleep(1)
         # player = seleniumFindPlayerColor(browser)
-        print("Player is", player)
+        # print("Player is", player)
 
         got_target = True
 
@@ -574,14 +571,14 @@ while True:
             #     continue
             # else:
             #     new_position += 1
-            if not multiPV_available:
-                search_depth = new_position * 2
-            else:
+            if multiPV_available:
                 search_depth = 8
+            else:
+                search_depth = new_position * 2
             engine.position(board)
             current_evaluation = engine.go(depth=search_depth)
             best_move = str(current_evaluation[0])
-            print("Best move:", best_move)
+            # print("Best move:", best_move)
 
             if board.turn:
                 turn = "White"
@@ -590,11 +587,15 @@ while True:
                 turn = "Black"
                 predicted_turn = "White"
 
-            print(board)
-            current_score = handler.info["score"][1].cp / 100.0
+            # print(board)
+            if 1 in handler.info["score"]:
+                current_score = handler.info["score"][1].cp
+            else:
+                current_score = None
             if current_score is None:
-                current_score = 100
-            print("Current evaluation with " + turn + ":", current_score)
+                current_score = 100000
+            current_score /= 100.0
+            # print("Current evaluation with " + turn + ":", current_score)
 
             evaluations = [current_score]
             legal_moves = (seleniumEvaluateMoves(browser, player))
@@ -604,7 +605,7 @@ while True:
                     predicted_score = evaluate_position(board, 8)
                     if predicted_score is None:
                         predicted_score = 100
-                    print("Predicted evaluation for " + str(move) + " with " + predicted_turn + ":", predicted_score)
+                    # print("Predicted evaluation for " + str(move) + " with " + predicted_turn + ":", predicted_score)
                     evaluations.append(-predicted_score)
                     board.pop()
             else:
@@ -627,10 +628,10 @@ while True:
                             third_score = handler.info["score"][3].cp
 
                         if abs(first_score - second_score) >= 80:
-                            print("OBVIOUS MOVE 1")
+                            # print("OBVIOUS MOVE 1")
                             obvious_move = True
                         elif abs(second_score - third_score) >= 80:
-                            print("OBVIOUS MOVE 2")
+                            # print("OBVIOUS MOVE 2")
                             best_move = second_move
                             obvious_move = True
                         else:
@@ -649,7 +650,7 @@ while True:
                     time.sleep(random.uniform(0.1, 1))
                 else:
                     time_diff = abs(time.time() - last_move_time - 1)
-                    print("Last move time:", time_diff)
+                    # print("Last move time:", time_diff)
                     if time_diff > 15:
                         time_diff = 15
                     sleep_time = random.uniform(time_diff / 5, time_diff / 2)
@@ -659,11 +660,11 @@ while True:
 
             if not move_only:
                 # makeMove(best_move, player)
-                print("Best Move:", best_move)
-                try:
-                    print("Evaluation:", handler.info["score"][1].cp/100.0)
-                except Exception as e:
-                    print("Evaluation exception:", e)
+                # print("Best Move:", best_move)
+                # try:
+                #     print("Evaluation:", handler.info["score"][1].cp/100.0)
+                # except Exception as e:
+                #     print("Evaluation exception:", e)
                 seleniumMakeMove(browser, best_move, player)
             else:
                 if multiPV_available:
@@ -674,18 +675,18 @@ while True:
                         multiPV_moves.append(str(handler.info["pv"][2][0]))
                         multiPV_moves.append(str(handler.info["pv"][3][0]))
 
-                        print("Moves")
-                        for move in multiPV_moves:
-                            print(move, end=" ")
-                        print()
+                        # print("Moves")
+                        # for move in multiPV_moves:
+                        #     print(move, end=" ")
+                        # print()
 
                         scores = []
                         for i in range(1, 4):
                             scores.append(handler.info["score"][i].cp/100.0)
-                        print("Scores")
+                        # print("Scores")
                         for score in scores:
                             print(score, end=" ")
-                        print()
+                        # print()
                         canvas_number = seleniumDrawMultipleMoves(browser, multiPV_moves, player, multiPV_move_colours, canvas_number)
                     except Exception as e:
                         seleniumDrawMove(browser, best_move, player, "'blue'")
@@ -697,10 +698,7 @@ while True:
         else:
             print("Failed to find any moves")
             # delay = float(input("Enter speed in seconds: ")) * 100
-            if not move_only:
-                player = input("Enter player color: ").lower()
-            else:
-                player = seleniumFindPlayerColor(browser)
+            player = seleniumFindPlayerColor(browser)
             print("Player is", player)
             move_count = 1
             moves = []
