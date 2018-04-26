@@ -8481,3 +8481,330 @@ Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\open
 [Child 10356, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 [Child 10356, Chrome_C[Child 9960, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 [Child 9960, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1524609348142	geckodriver	INFO	geckodriver 0.19.1
+1524609348181	geckodriver	INFO	Listening on 127.0.0.1:51159
+1524609351566	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "D:\\TEMP\\rust_mozprofile.HymaKRzmPBml"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524609353910	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524609361656	Marionette	INFO	Listening on port 51167
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524609364800	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 5292, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8108, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5292, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chi[[GPU 9656, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1524609664503	geckodriver	INFO	geckodriver 0.19.1
+1524609664525	geckodriver	INFO	Listening on 127.0.0.1:51367
+1524609667875	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "D:\\TEMP\\rust_mozprofile.ZHYgWOtXh71w"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524609669890	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524609675256	Marionette	INFO	Listening on port 51377
+1524609676202	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&glade_req=1&glv=26&dt=1524609777010&output=html&iu=%2F1082185%2F160X600-Top-Right&sz=160x600&sfv=1-0-10&correlator=3663419926526560&adk=4254123207&biw=1920&bih=966&adx=1760&ady=0&oid=3&u_sd=1&ifi=1&click=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjsvyIEDn9IhAg7hmkXwKQjxjjELCfOJ2VHoPxph-GqOqHMMYRT1cmYDTPQzqeQMdhzEz-r04IUCmM4xa7YgZexqn923UYGCUh8IOW_qk5K374Cne0Yv-oHj7LtllPlwIXrZBd0VbRDAje4KG7MVJoU4wFePDCgXDK_N-tuLVGFu0D4bSlTNgE_HvRgjJ1kuasf2qrENPZE4Zf2xZri2Lg1J4uCil9PHrJZTA0_h8%26sig%3DCg0ArKJSzAuZJFmWC2rWEAE%26urlfix%3D1%26adurl%3D&nhd=1&url=https%3A%2F%2Fwww.chess.com%2Flive%23g%3D2767458973&top=https%3A%2F%2Fwww.chess.com%2Flive%23g%3D2767458973, line 22: unreachable code after return statement
+JavaScript warning: https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&glade_req=1&glv=26&dt=1524609777010&output=html&iu=%2F1082185%2F160X600-Top-Right&sz=160x600&sfv=1-0-10&correlator=3663419926526560&adk=4254123207&biw=1920&bih=966&adx=1760&ady=0&oid=3&u_sd=1&ifi=1&click=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjsvyIEDn9IhAg7hmkXwKQjxjjELCfOJ2VHoPxph-GqOqHMMYRT1cmYDTPQzqeQMdhzEz-r04IUCmM4xa7YgZexqn923UYGCUh8IOW_qk5K374Cne0Yv-oHj7LtllPlwIXrZBd0VbRDAje4KG7MVJoU4wFePDCgXDK_N-tuLVGFu0D4bSlTNgE_HvRgjJ1kuasf2qrENPZE4Zf2xZri2Lg1J4uCil9PHrJZTA0_h8%26sig%3DCg0ArKJSzAuZJFmWC2rWEAE%26urlfix%3D1%26adurl%3D&nhd=1&url=https%3A%2F%2Fwww.chess.com%2Flive%23g%3D2767458973&top=https%3A%2F%2Fwww.chess.com%2Flive%23g%3D2767458973, line 22: unreachable code after return statement
+JavaScript warning: https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&glade_req=1&glv=26&dt=1524609856716&output=html&iu=%2F1082185%2F160X600-Top-Right&sz=160x600&sfv=1-0-10&correlator=1506604656445076&adk=4254123207&biw=1920&bih=966&adx=1760&ady=0&oid=3&u_sd=1&ifi=1&click=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjsuUGAffnRZBeLJgv16fFRKeTtAX7G27MOqv-XP65dWbezs-0nzAM7NIx3pD-qAeYdYZSHCTwVvbDuPupUEmVS26iCyXnq6OnqLsqfv-oSLP2wp9g1vcZCwOSsaDQYSh2x9oh0P0FCYHMyGq1VDNoijuXFyWyH_pe3Ufwb7t4PtyfgsZJOuKPn7nhUwvEao8XombTuAyLVPU3zvX4nX0XQYP22JYJYp4F-SY7z83%26sig%3DCg0ArKJSzE4Ap-dIaCb-EAE%26urlfix%3D1%26adurl%3D&nhd=1&url=https%3A%2F%2Fwww.chess.com%2Flive%23g%3D2767468502&top=https%3A%2F%2Fwww.chess.com%2Flive%23g%3D2767468502, line 22: unreachable code after return statement
+JavaScript warning: https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&glade_req=1&glv=26&dt=1524609856716&output=html&iu=%2F1082185%2F160X600-Top-Right&sz=160x600&sfv=1-0-10&correlator=1506604656445076&adk=4254123207&biw=1920&bih=966&adx=1760&ady=0&oid=3&u_sd=1&ifi=1&click=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjsuUGAffnRZBeLJgv16fFRKeTtAX7G27MOqv-XP65dWbezs-0nzAM7NIx3pD-qAeYdYZSHCTwVvbDuPupUEmVS26iCyXnq6OnqLsqfv-oSLP2wp9g1vcZCwOSsaDQYSh2x9oh0P0FCYHMyGq1VDNoijuXFyWyH_pe3Ufwb7t4PtyfgsZJOuKPn7nhUwvEao8XombTuAyLVPU3zvX4nX0XQYP22JYJYp4F-SY7z83%26sig%3DCg0ArKJSzE4Ap-dIaCb-EAE%26urlfix%3D1%26adurl%3D&nhd=1&url=https%3A%2F%2Fwww.chess.com%2Flive%23g%3D2767468502&top=https%3A%2F%2Fwww.chess.com%2Flive%23g%3D2767468502, line 22: unreachable code after return statement
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+1524691940929	geckodriver	INFO	geckodriver 0.19.1
+1524691941010	geckodriver	INFO	Listening on 127.0.0.1:53144
+1524691944362	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "D:\\TEMP\\rust_mozprofile.5ZS30w1klQKP"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524691946142	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524691950894	Marionette	INFO	Listening on port 53154
+1524691951732	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://betacssjs.chesscomfiles.com/bundles/app/js/common.dll.4d7fff84.js, line 29: TypeError: n is undefined
+JavaScript error: https://betacssjs.chesscomfiles.com/bundles/app/js/common.dll.4d7fff84.js, line 1: Error: Network Error
+JavaScript error: https://betacssjs.chesscomfiles.com/bundles/app/js/common.dll.4d7fff84.js, line 29: TypeError: n is undefined
+1524692088682	geckodriver	INFO	geckodriver 0.19.1
+1524692088728	geckodriver	INFO	Listening on 127.0.0.1:54500
+1524692091962	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "D:\\TEMP\\rust_mozprofile.94SwPaXwRcV1"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524692094116	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524692100078	Marionette	INFO	Listening on port 54508
+1524692100300	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524701091529	geckodriver	INFO	geckodriver 0.19.1
+1524701091571	geckodriver	INFO	Listening on 127.0.0.1:58146
+1524701094768	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "D:\\TEMP\\rust_mozprofile.SBYZDtyxRjwD"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524701097290	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524701103034	Marionette	INFO	Listening on port 58154
+1524701103232	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&glade_req=1&glv=26&dt=1524701209660&output=html&iu=%2F1082185%2F160X600-Top-Right&sz=160x600&sfv=1-0-10&correlator=1320158863193380&adk=4254123207&biw=1920&bih=966&adx=1760&ady=0&oid=3&u_sd=1&ifi=1&click=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjssTbasAb1TUVr7ubrKBi5cUwQfzUjl-6zFtYviGTNLq7qApfNt033LenEED8DOtZA8akT9yaqwoQnLNyY1sBKp4ttd3VnQyz3qbrnuETWtFO_re2y2CieWOpv57YZvmW80Gf0O7CWPMG8dScick2En1px_eOmIkJmkvP16514vw8TLEFgzNDvgCSwEEl7Y3M60vEIEYYdStlQzJvhA18fQ3_DQh9_pFgnlocJlQ%26sig%3DCg0ArKJSzJ-ipwX8J2-rEAE%26urlfix%3D1%26adurl%3D&nhd=1&url=https%3A%2F%2Fwww.chess.com%2Flive%23g%3D2769748574&top=https%3A%2F%2Fwww.chess.com%2Flive%23g%3D2769748574, line 22: unreachable code after return statement
+JavaScript warning: https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&glade_req=1&glv=26&dt=1524701209660&output=html&iu=%2F1082185%2F160X600-Top-Right&sz=160x600&sfv=1-0-10&correlator=1320158863193380&adk=4254123207&biw=1920&bih=966&adx=1760&ady=0&oid=3&u_sd=1&ifi=1&click=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjssTbasAb1TUVr7ubrKBi5cUwQfzUjl-6zFtYviGTNLq7qApfNt033LenEED8DOtZA8akT9yaqwoQnLNyY1sBKp4ttd3VnQyz3qbrnuETWtFO_re2y2CieWOpv57YZvmW80Gf0O7CWPMG8dScick2En1px_eOmIkJmkvP16514vw8TLEFgzNDvgCSwEEl7Y3M60vEIEYYdStlQzJvhA18fQ3_DQh9_pFgnlocJlQ%26sig%3DCg0ArKJSzJ-ipwX8J2-rEAE%26urlfix%3D1%26adurl%3D&nhd=1&url=https%3A%2F%2Fwww.chess.com%2Flive%23g%3D2769748574&top=https%3A%2F%2Fwww.chess.com%2Flive%23g%3D2769748574, line 22: unreachable code after return statement
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 3036, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10964, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10964, Chrome_ChildThreUnable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 3036, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9276, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1524706620941	geckodriver	INFO	geckodriver 0.19.1
+1524706620959	geckodriver	INFO	Listening on 127.0.0.1:63160
+1524706624184	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "D:\\TEMP\\rust_mozprofile.Aw4ElGfGqdgG"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524706626294	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524706631888	Marionette	INFO	Listening on port 63168
+1524706632024	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&glade_req=1&glv=26&dt=1524706653384&output=html&iu=%2F1082185%2F160X600-Top-Right&sz=160x600&sfv=1-0-10&correlator=1795978494355936&adk=4254123207&biw=1920&bih=966&adx=1760&ady=0&oid=3&u_sd=1&ifi=1&click=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjsulIgdB4YDEcsJ6NBDz1acLpTrWNa5v9VeMrA6ctRFpWlCAeDlnD1k9RFM7QNWMvsCDQ7ZLLwtlgRVhSEVVmsmBgEvqIANFDWhKytQEuoBus268rKJM3oRF3eY8WrsbsUQkd6RkFf-RcfgS2k2BwBype3OXU9KyuqkJxB9w8kn1ge2hlNLNACuh7aOlVYwYoSH8EGZBBRHtAUBVWcY1_LqZ8jO4Mu49nU-W2-5b%26sig%3DCg0ArKJSzJHspjNDLKDgEAE%26urlfix%3D1%26adurl%3D&nhd=1&url=https%3A%2F%2Fwww.chess.com%2Flive%23g%3D2769852219&top=https%3A%2F%2Fwww.chess.com%2Flive%23g%3D2769852219, line 22: unreachable code after return statement
+JavaScript warning: https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&glade_req=1&glv=26&dt=1524706653384&output=html&iu=%2F1082185%2F160X600-Top-Right&sz=160x600&sfv=1-0-10&correlator=1795978494355936&adk=4254123207&biw=1920&bih=966&adx=1760&ady=0&oid=3&u_sd=1&ifi=1&click=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjsulIgdB4YDEcsJ6NBDz1acLpTrWNa5v9VeMrA6ctRFpWlCAeDlnD1k9RFM7QNWMvsCDQ7ZLLwtlgRVhSEVVmsmBgEvqIANFDWhKytQEuoBus268rKJM3oRF3eY8WrsbsUQkd6RkFf-RcfgS2k2BwBype3OXU9KyuqkJxB9w8kn1ge2hlNLNACuh7aOlVYwYoSH8EGZBBRHtAUBVWcY1_LqZ8jO4Mu49nU-W2-5b%26sig%3DCg0ArKJSzJHspjNDLKDgEAE%26urlfix%3D1%26adurl%3D&nhd=1&url=https%3A%2F%2Fwww.chess.com%2Flive%23g%3D2769852219&top=https%3A%2F%2Fwww.chess.com%2Flive%23g%3D2769852219, line 22: unreachable code after return statement
+JavaScript warning: https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&glade_req=1&glv=26&dt=1524706836084&output=html&iu=%2F1082185%2F160X600-Top-Right&sz=160x600&sfv=1-0-10&correlator=691791483184470&adk=4254123207&biw=1920&bih=966&adx=1760&ady=0&oid=3&u_sd=1&ifi=1&click=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjsvgaWpnwgNIimEiq1X87goQI-dER0Tb5XS3XDhVppvX3xJhbZni0ibs_nOASsBLRJMoTX8KSv4olyWwTBrw2sdqvcpmHSLfIwyYtORcUrltW3gtA7gjGgb_7c2TUuS1bjFrfDn6XyRFXbC8X7dgV_X86SVAmhq06MZzjr7ED5LzXyqZbdzMFJa-dfTKrfYj-YfpLmDnBA2sj8mJ6HtM29mYzsukAOTYcWXP6Ioa%26sig%3DCg0ArKJSzEFiAyDKjfjxEAE%26urlfix%3D1%26adurl%3D&nhd=1&url=https%3A%2F%2Fwww.chess.com%2Flive%23g%3D2769858071&top=https%3A%2F%2Fwww.chess.com%2Flive%23g%3D2769858071, line 22: unreachable code after return statement
+JavaScript warning: https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&glade_req=1&glv=26&dt=1524706836084&output=html&iu=%2F1082185%2F160X600-Top-Right&sz=160x600&sfv=1-0-10&correlator=691791483184470&adk=4254123207&biw=1920&bih=966&adx=1760&ady=0&oid=3&u_sd=1&ifi=1&click=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjsvgaWpnwgNIimEiq1X87goQI-dER0Tb5XS3XDhVppvX3xJhbZni0ibs_nOASsBLRJMoTX8KSv4olyWwTBrw2sdqvcpmHSLfIwyYtORcUrltW3gtA7gjGgb_7c2TUuS1bjFrfDn6XyRFXbC8X7dgV_X86SVAmhq06MZzjr7ED5LzXyqZbdzMFJa-dfTKrfYj-YfpLmDnBA2sj8mJ6HtM29mYzsukAOTYcWXP6Ioa%26sig%3DCg0ArKJSzEFiAyDKjfjxEAE%26urlfix%3D1%26adurl%3D&nhd=1&url=https%3A%2F%2Fwww.chess.com%2Flive%23g%3D2769858071&top=https%3A%2F%2Fwww.chess.com%2Flive%23g%3D2769858071, line 22: unreachable code after return statement
+1524707703606	geckodriver	INFO	geckodriver 0.19.1
+1524707703630	geckodriver	INFO	Listening on 127.0.0.1:55414
+1524707706818	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "D:\\TEMP\\rust_mozprofile.cUeUuFFAJ05S"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524707708836	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524707715070	Marionette	INFO	Listening on port 55424
+1524707715174	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&glade_req=1&glv=26&dt=1524707733826&output=html&iu=%2F1082185%2F160X600-Top-Right&sz=160x600&sfv=1-0-10&correlator=1841124520806035&adk=4254123207&biw=1920&bih=966&adx=1760&ady=0&oid=3&u_sd=1&ifi=1&click=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjstclqEc9Equ2CM3NWsmPUbjkxTkiEtx4W1Vl_Pda5UOinEo5CA4HVbp1EUF3KAoGQItKwLFW_yFrML2klYNy4nfCvO0ExYjwKFAZQF26MpBTJrSTZhBIrciMLxhCI0kPJbCwHIbfKp3kNL5wKZyuxktb8QEx_RZpmMn1gFIHbcErWb9DV1pHKnCGz7Cu1pctUpD8fJZZ539YopGN2rPK38OOjRUztmih2IBwUIx%26sig%3DCg0ArKJSzNxZ-r7nJeEvEAE%26urlfix%3D1%26adurl%3D&nhd=1&url=https%3A%2F%2Fwww.chess.com%2Flive&top=https%3A%2F%2Fwww.chess.com%2Flive, line 22: unreachable code after return statement
+JavaScript warning: https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&glade_req=1&glv=26&dt=1524707733826&output=html&iu=%2F1082185%2F160X600-Top-Right&sz=160x600&sfv=1-0-10&correlator=1841124520806035&adk=4254123207&biw=1920&bih=966&adx=1760&ady=0&oid=3&u_sd=1&ifi=1&click=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjstclqEc9Equ2CM3NWsmPUbjkxTkiEtx4W1Vl_Pda5UOinEo5CA4HVbp1EUF3KAoGQItKwLFW_yFrML2klYNy4nfCvO0ExYjwKFAZQF26MpBTJrSTZhBIrciMLxhCI0kPJbCwHIbfKp3kNL5wKZyuxktb8QEx_RZpmMn1gFIHbcErWb9DV1pHKnCGz7Cu1pctUpD8fJZZ539YopGN2rPK38OOjRUztmih2IBwUIx%26sig%3DCg0ArKJSzNxZ-r7nJeEvEAE%26urlfix%3D1%26adurl%3D&nhd=1&url=https%3A%2F%2Fwww.chess.com%2Flive&top=https%3A%2F%2Fwww.chess.com%2Flive, line 22: unreachable code after return statement
+1524707832100	geckodriver	INFO	geckodriver 0.19.1
+1524707832112	geckodriver	INFO	Listening on 127.0.0.1:55710
+1524707835272	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "D:\\TEMP\\rust_mozprofile.2t7HmKBteTRL"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524707837358	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524707842816	Marionette	INFO	Listening on port 55718
+1524707843718	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&glade_req=1&glv=26&dt=1524707860934&output=html&iu=%2F1082185%2F160X600-Top-Right&sz=160x600&sfv=1-0-10&correlator=1999354827689728&adk=4254123207&biw=1920&bih=966&adx=1760&ady=0&oid=3&u_sd=1&ifi=1&click=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjsskMX9jxR4LUVKys5jhdimE-fxX7DhJ_rvoVx2fqohbgO3yVtYzJURdw81pNLoKKxa7iERstAPRyx9rrHAHWMdUEIvFdEByWMFtO3QvWYbzGxF4CfoIM02INZlEUb9ahr-0MjBdHuKb9DsBF9wd4-xZU8u1MHb8OwPargriRImRLoGQ-QLRovVZxsmbUz7Alwn-mcgfP3btIbHBkOn7cvOWOl89AUKBq1Kab-Vr%26sig%3DCg0ArKJSzKKlozsWnHFvEAE%26urlfix%3D1%26adurl%3D&nhd=1&url=https%3A%2F%2Fwww.chess.com%2Flive%23g%3D2769876944&top=https%3A%2F%2Fwww.chess.com%2Flive%23g%3D2769876944, line 22: unreachable code after return statement
+JavaScript warning: https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&glade_req=1&glv=26&dt=1524707860934&output=html&iu=%2F1082185%2F160X600-Top-Right&sz=160x600&sfv=1-0-10&correlator=1999354827689728&adk=4254123207&biw=1920&bih=966&adx=1760&ady=0&oid=3&u_sd=1&ifi=1&click=https%3A%2F%2Fadclick.g.doubleclick.net%2Fpcs%2Fclick%3Fxai%3DAKAOjsskMX9jxR4LUVKys5jhdimE-fxX7DhJ_rvoVx2fqohbgO3yVtYzJURdw81pNLoKKxa7iERstAPRyx9rrHAHWMdUEIvFdEByWMFtO3QvWYbzGxF4CfoIM02INZlEUb9ahr-0MjBdHuKb9DsBF9wd4-xZU8u1MHb8OwPargriRImRLoGQ-QLRovVZxsmbUz7Alwn-mcgfP3btIbHBkOn7cvOWOl89AUKBq1Kab-Vr%26sig%3DCg0ArKJSzKKlozsWnHFvEAE%26urlfix%3D1%26adurl%3D&nhd=1&url=https%3A%2F%2Fwww.chess.com%2Flive%23g%3D2769876944&top=https%3A%2F%2Fwww.chess.com%2Flive%23g%3D2769876944, line 22: unreachable code after return statement
+1524707953094	geckodriver	INFO	geckodriver 0.19.1
+1524707953118	geckodriver	INFO	Listening on 127.0.0.1:56555
+1524707956343	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "D:\\TEMP\\rust_mozprofile.xAfSWUwraBW2"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524707958652	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524707964620	Marionette	INFO	Listening on port 56563
+1524707964732	Marionette	WARN	TLS certificate errors will be ignored for this session
+1524708004301	geckodriver	INFO	geckodriver 0.19.1
+1524708004309	geckodriver	INFO	Listening on 127.0.0.1:56888
+1524708007586	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "D:\\TEMP\\rust_mozprofile.p1nfcfwbbltu"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524708009476	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524708015134	Marionette	INFO	Listening on port 56896
+1524708016538	Marionette	WARN	TLS certificate errors will be ignored for this session
+1524708173817	geckodriver	INFO	geckodriver 0.19.1
+1524708173844	geckodriver	INFO	Listening on 127.0.0.1:59571
+1524708177110	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "D:\\TEMP\\rust_mozprofile.MHFcPDcpQH7M"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524708178810	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524708184284	Marionette	INFO	Listening on port 59579
+1524708184524	Marionette	WARN	TLS certificate errors will be ignored for this session
+1524708263485	geckodriver	INFO	geckodriver 0.19.1
+1524708263501	geckodriver	INFO	Listening on 127.0.0.1:59988
+1524708266717	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "D:\\TEMP\\rust_mozprofile.fUhRJMmFvlmw"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524708268394	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524708273224	Marionette	INFO	Listening on port 59996
+1524708274432	Marionette	WARN	TLS certificate errors will be ignored for this session
+1524708330326	geckodriver	INFO	geckodriver 0.19.1
+1524708330356	geckodriver	INFO	Listening on 127.0.0.1:60296
+1524708333567	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "D:\\TEMP\\rust_mozprofile.3DufCPg6a6iv"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524708335190	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524708340516	Marionette	INFO	Listening on port 60304
+1524708341408	Marionette	WARN	TLS certificate errors will be ignored for this session
+1524708409982	geckodriver	INFO	geckodriver 0.19.1
+1524708410001	geckodriver	INFO	Listening on 127.0.0.1:61265
+1524708413212	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "D:\\TEMP\\rust_mozprofile.L5OfXXggwF9i"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524708415008	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524708420734	Marionette	INFO	Listening on port 61273
+1524708421608	Marionette	WARN	TLS certificate errors will be ignored for this session
+1524708527523	geckodriver	INFO	geckodriver 0.19.1
+1524708527538	geckodriver	INFO	Listening on 127.0.0.1:63300
+1524708530818	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "D:\\TEMP\\rust_mozprofile.62kDL6PJgncA"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524708532378	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524708538284	Marionette	INFO	Listening on port 63308
+1524708539544	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://fw.adsafeprotected.com/rjss/www.googletagservices.com/152975/23519429/dcm/dcmads.js?adsafe_preview=${IS_PREVIEW}, line 765: TypeError: b is undefined
+JavaScript error: https://static.adsafeprotected.com/main.17.4.95.js, line 196: TypeError: b is undefined
+1524708568640	geckodriver	INFO	geckodriver 0.19.1
+1524708568665	geckodriver	INFO	Listening on 127.0.0.1:63694
+1524708571889	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "D:\\TEMP\\rust_mozprofile.hx04g0eyTEgB"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524708573744	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524708579718	Marionette	INFO	Listening on port 63702
+1524708579746	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 6408, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7344, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7344, Chrome_ChildThread] WARNING: pipe error: 109: file 1524708664078	geckodriver	INFO	geckodriver 0.19.1
+1524708664100	geckodriver	INFO	Listening on 127.0.0.1:64835
+1524708667334	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "D:\\TEMP\\rust_mozprofile.VRYd0QC1FJOt"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524708669214	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524708674784	Marionette	INFO	Listening on port 64843
+1524708675704	Marionette	WARN	TLS certificate errors will be ignored for this session
+1524708723066	geckodriver	INFO	geckodriver 0.19.1
+1524708723083	geckodriver	INFO	Listening on 127.0.0.1:65223
+1524708726399	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "D:\\TEMP\\rust_mozprofile.bYO70G6WaOqO"
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524708728546	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+1524708734506	Marionette	INFO	Listening on port 65232
+1524708734748	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource:///modules/FormSubmitObserver.jsm, line 218: TypeError: this._mm is null
+JavaScript error: resource:///modules/FormSubmitObserver.jsm, line 218: TypeError: this._mm is null
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 9852, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9852, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Recursor\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10360, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10360, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
