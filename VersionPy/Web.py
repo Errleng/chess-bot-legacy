@@ -59,7 +59,10 @@ class SeleniumChess(object):
                 self.chessboard = self.driver.find_element_by_class_name("chessboard-transclude")
             except Exception as e:
                 print("Error when finding chessboard:", e)
-                return
+                try:
+                    self.chessboard = self.driver.find_element_by_class_name("chess-board-container")
+                except Exception as e:
+                    print(e)
 
             # Initialize ActionChains
             self.action_chains = webdriver.ActionChains(self.driver)
@@ -73,7 +76,8 @@ class SeleniumChess(object):
     def UpdateElements(self):
         try:
             self.chessboard.click()
-        except StaleElementReferenceException:
+        except Exception as e:
+            print(e)
             print("Updating Elements")
             self.GetElements()
 
@@ -355,7 +359,8 @@ def evaluate_position(position, depth):
 
 LAPTOP = False
 
-move_only = True
+move_only = False
+fast_mode = True
 
 if LAPTOP:
     BOARD_DIM = 498
@@ -373,7 +378,7 @@ else:
 start_time = time.time()
 
 # ENGINE_NAME = "stockfish_9_x64.exe"
-ENGINE_NAME = "Rybkav2.3.2a.mp.x64.exe"
+# ENGINE_NAME = "Rybkav2.3.2a.mp.x64.exe"
 
 # ENGINE_PATH = r"D:\Documents\SourceTree\ChessBot\Engines\Rodent III"
 # ENGINE_NAME = "/rodent_III_x64.exe"
@@ -383,6 +388,9 @@ ENGINE_NAME = "Rybkav2.3.2a.mp.x64.exe"
 
 # ENGINE_PATH += "OpenTal/"
 # ENGINE_NAME = "opental_x64plain.exe"
+
+ENGINE_PATH += "Pulse/"
+ENGINE_NAME = "pulse--fast.exe"
 
 multiPV_available = False
 
@@ -520,10 +528,13 @@ while True:
             # else:
             #     new_position += 1
 
-            search_depth = 8
+            search_depth = 6
             engine.position(board)
+            print(board)
+            print("Searching")
             current_evaluation = engine.go(depth=search_depth)
             best_move = str(current_evaluation[0])
+            print(best_move)
 
             if board.turn:
                 turn = "White"
@@ -543,7 +554,7 @@ while True:
 
             evaluations = [current_score]
             legal_moves = (SeleniumI.EvaluateMoves(player))
-            if legal_moves is not None:
+            if legal_moves is not None and not fast_mode:
                 for move in legal_moves:
                     board.push(move)
                     predicted_score = evaluate_position(board, 8)
@@ -587,7 +598,7 @@ while True:
                         print(handler.info)
                         pass
 
-            if not move_only and len(moves) > 1:
+            if not move_only and len(moves) > 1 and not fast_mode:
                 if len(moves) < 10 or obvious_move:
                     time.sleep(random.uniform(0.1, 1))
                 else:
