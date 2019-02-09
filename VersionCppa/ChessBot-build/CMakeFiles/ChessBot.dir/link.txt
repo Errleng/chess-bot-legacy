@@ -1,3 +1,0 @@
-D:\Applications\CMake\bin\cmake.exe -E remove -f CMakeFiles\ChessBot.dir/objects.a
-D:\Applications\MinGW-64\mingw64\bin\ar.exe cr CMakeFiles\ChessBot.dir/objects.a @CMakeFiles\ChessBot.dir\objects1.rsp
-D:\Applications\MinGW-64\mingw64\bin\g++.exe    -Wl,--whole-archive CMakeFiles\ChessBot.dir/objects.a -Wl,--no-whole-archive  -o ChessBot.exe -Wl,--out-implib,libChessBot.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ChessBot.dir\linklibs.rsp

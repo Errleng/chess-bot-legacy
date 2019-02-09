@@ -56,7 +56,7 @@ class SeleniumChess(object):
     def GetElements(self):
         if self.driver is not None:
             try:
-                self.chessboard = self.driver.find_element_by_class_name("chessboard-transclude")
+                self.chessboard = self.driver.find_element_by_class_name("chessboard-container-component")
             except Exception as e:
                 print("Error when finding chessboard:", e)
                 try:
@@ -186,7 +186,7 @@ class SeleniumChess(object):
     def FindPlayerColor(self):
         try:
             self.driver.find_element_by_css_selector(
-                "div[class='board-player-component_0 board-player-bottom_0 board-player-white_0 board-player-darkMode_0']")
+                "div[class='board-player-component board-player-bottom board-player-white undefined']")
         except:
             return "black"
         return "white"
@@ -359,7 +359,7 @@ def evaluate_position(position, depth):
 
 LAPTOP = False
 
-move_only = False
+move_only = True
 fast_mode = True
 
 if LAPTOP:
@@ -383,14 +383,14 @@ start_time = time.time()
 # ENGINE_PATH = r"D:\Documents\SourceTree\ChessBot\Engines\Rodent III"
 # ENGINE_NAME = "/rodent_III_x64.exe"
 
-# ENGINE_PATH += "Rodent III - Strangler/"
-# ENGINE_NAME = "rodent_III_x64.exe"
+ENGINE_PATH += "Rodent III - Strangler/"
+ENGINE_NAME = "rodent_III_x64.exe"
 
 # ENGINE_PATH += "OpenTal/"
 # ENGINE_NAME = "opental_x64plain.exe"
 
-ENGINE_PATH += "Pulse/"
-ENGINE_NAME = "pulse--fast.exe"
+# ENGINE_PATH += "Pulse/"
+# ENGINE_NAME = "pulse--fast.exe"
 
 multiPV_available = False
 
@@ -425,12 +425,13 @@ SeleniumI = SeleniumChess(browser)
 # username, password = "rimkill", "failure"
 # username, password = "breachFirst", "foamfathom"
 # username, password = "acolade", "rammification"
-username, password = "pasdsma", "amorial"
+# username, password = "pasdsma", "amorial"
+username, password = "monaeaei", "emaaten"
 
 SeleniumI.Login(username, password)
 
 try:
-    browser.get("https://www.chess.com/live")
+    browser.get("https://www.chess.com/live/")
 except TimeoutException:
     browser.execute_script("window.stop();")
 
@@ -448,8 +449,12 @@ canvas_number = 1
 BLACK = "black"
 WHITE = "white"
 
+global move_count, moves, ply_count, ply_change, last_move_one
 move_count = 1
+ply_count = 1
+ply_change = 0
 moves = []
+last_move_one = False
 last_move_time = time.time()
 
 if multiPV_available:
@@ -464,10 +469,17 @@ SeleniumI.CreateCanvasArrows()
 
 new_position = 2
 
+def reset_state():
+    global move_count, moves, ply_count, ply_change, last_move_one
+    move_count = 1
+    ply_count = 1
+    ply_change = 0
+    moves = []
+    last_move_one = False
+
 while True:
     try:
         time.sleep(2)
-
         got_target = True
         turn_black = False
         found_first_move = True
@@ -475,30 +487,53 @@ while True:
         player = SeleniumI.FindPlayerColor()
 
         try:
-            ending_str = "[id$=gotomoveid_0_1]"
-            start_move = browser.find_element_by_css_selector(ending_str)
+            ending_str = "//span[.='1.']"
+            start_move = browser.find_element_by_xpath(ending_str)
         except:
             found_first_move = False
 
+        board = chess.Board(starting_FEN)
         while True:
             try:
-                element_str = "[id$=gotomoveid_0_" + str(move_count) + "]"
-                target_element = browser.find_element_by_css_selector(element_str)
+                element_str = "//span[.='" + str(ply_count) + ".']"
+                target_element = browser.find_element_by_xpath(element_str).find_element_by_xpath("..")
                 target_element_content = target_element.text
+                two_moves = target_element_content.split('\n')
+                two = len(two_moves) == 5
+                print(two_moves, ply_count, last_move_one, two)
+                two_moves.pop()
+                if two:
+                    two_moves.pop()
+                two_moves = two_moves[1:]
 
-                # if got_target:
-                if target_element_content != "":
-                    moves.append(target_element_content)
-                    move_count += 1
-                    new_position = 2
+
+                if target_element_content != "" and len(two_moves) > 0:
+                    if two:
+                        if last_move_one:
+                            moves.append(two_moves[1])
+                        else:
+                            moves.append(two_moves[0])
+                            moves.append(two_moves[1])
+                        last_move_one = False
+                        ply_count += 1
+                    else:
+                        if not last_move_one:
+                            moves.append(two_moves[0])
+                            move_count += 1
+                            new_position = 2
+                            last_move_one = True
+                        else:
+                            break
+                        last_move_one = True
                 else:
                     turn_black = True
                     break
             except Exception as e:
-                # print(e)
+                print(e)
                 # got_target = False
                 break
 
+        print(moves)
         if found_first_move and len(moves) > 0 and (
                 moves[-1] != "1-0" and moves[-1] != "0-1" and moves[-1] != "1/2-1/2") or len(
             moves) == 0 and player == WHITE:
@@ -512,7 +547,6 @@ while True:
             # print("Moves")
             # print(moves)
 
-            board = chess.Board(starting_FEN)
             calculate_move = time.time()
 
             try:
@@ -652,12 +686,10 @@ while True:
             # delay = float(input("Enter speed in seconds: ")) * 100
             player = SeleniumI.FindPlayerColor()
             print("Player is", player)
-            move_count = 1
-            moves = []
+            reset_state()
     except Exception as exception:
         print("Loop Exception:", exception)
         print("Moves:", moves)
         print("Engine handler info:", handler.info)
-        move_count = 1
-        moves = []
+        reset_state()
         print(traceback.print_exc())

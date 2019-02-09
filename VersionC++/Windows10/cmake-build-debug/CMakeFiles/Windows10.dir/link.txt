@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Windows10.dir/main.cpp.o  -o Windows10.exe -Wl,--out-implib,libWindows10.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

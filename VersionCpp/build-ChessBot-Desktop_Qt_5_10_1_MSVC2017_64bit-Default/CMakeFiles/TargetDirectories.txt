@@ -1,3 +1,0 @@
-D:/Documents/SourceTree/ChessBot/VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/ChessBot.dir
-D:/Documents/SourceTree/ChessBot/VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/ALL_BUILD.dir
-D:/Documents/SourceTree/ChessBot/VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/ZERO_CHECK.dir
