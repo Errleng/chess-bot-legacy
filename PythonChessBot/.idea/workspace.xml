@@ -2,181 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="408cc272-6ef9-4c3b-857f-07a83dfd4281" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vec2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_classes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium_canvas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium_chess.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/ChessBot/.vs/ChessBot/v15/ipch/2d41eeafad6e6a4.ipch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/ChessBot/ChessBot/x64/Release/ChessBot.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/ChessBot/ChessBot/x64/Release/ChessBot.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/ChessBot/ChessBot/x64/Release/ChessBot.tlog/CL.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/ChessBot/ChessBot/x64/Release/ChessBot.tlog/CL.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/ChessBot/ChessBot/x64/Release/ChessBot.tlog/CL.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/ChessBot/ChessBot/x64/Release/ChessBot.tlog/ChessBot.lastbuildstate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/ChessBot/ChessBot/x64/Release/ChessBot.tlog/unsuccessfulbuild" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/ChessBot/ChessBot/x64/Release/stdafx.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/ChessBot/ChessBot/x64/Release/vc141.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/.idea/Windows10.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeFiles/3.9.4/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeFiles/3.9.4/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeFiles/3.9.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeFiles/3.9.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeFiles/3.9.4/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeFiles/3.9.4/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeFiles/3.9.4/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeFiles/3.9.4/CompilerIdC/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeFiles/3.9.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeFiles/3.9.4/CompilerIdCXX/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeFiles/Windows10.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeFiles/Windows10.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeFiles/Windows10.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeFiles/Windows10.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeFiles/Windows10.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeFiles/Windows10.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeFiles/Windows10.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/Windows10.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionC++/Windows10/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/ChessBot/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/ChessBot/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/ChessBot/CMakeLists.txt.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/ChessBot/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/ALL_BUILD.vcxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/ALL_BUILD.vcxproj.filters" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/CompilerIdC/CompilerIdC.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/CompilerIdC/CompilerIdC.vcxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/CompilerIdC/Debug/CMakeCCompilerId.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/CompilerIdC/Debug/CompilerIdC.tlog/CL.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/CompilerIdC/Debug/CompilerIdC.tlog/CL.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/CompilerIdC/Debug/CompilerIdC.tlog/CL.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/CompilerIdC/Debug/CompilerIdC.tlog/CompilerIdC.lastbuildstate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/CompilerIdC/Debug/CompilerIdC.tlog/link.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/CompilerIdC/Debug/CompilerIdC.tlog/link.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/CompilerIdC/Debug/CompilerIdC.tlog/link.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/CompilerIdCXX/CompilerIdCXX.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/CompilerIdCXX/CompilerIdCXX.vcxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/CompilerIdCXX/Debug/CMakeCXXCompilerId.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CompilerIdCXX.lastbuildstate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/VCTargetsPath.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/VCTargetsPath.vcxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/3.11.0-rc2/x64/Debug/VCTargetsPath.tlog/VCTargetsPath.lastbuildstate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/7c0da0f2f7891d989cd0b30d414dcdb3/generate.stamp.rule" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/ChessBot_autogen.dir/AutogenInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/generate.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/generate.stamp.depend" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/CMakeFiles/generate.stamp.list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/ChessBot.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/ChessBot.vcxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/ChessBot.vcxproj.filters" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/ZERO_CHECK.vcxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/ZERO_CHECK.vcxproj.filters" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCpp/build-ChessBot-Desktop_Qt_5_10_1_MSVC2017_64bit-Default/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/3.11.0-rc2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/3.11.0-rc2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/3.11.0-rc2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/3.11.0-rc2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/3.11.0-rc2/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/3.11.0-rc2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/3.11.0-rc2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/3.11.0-rc2/CompilerIdC/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/3.11.0-rc2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/3.11.0-rc2/CompilerIdCXX/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/ChessBot.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/ChessBot.dir/ChessBot_autogen/mocs_compilation.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/ChessBot.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/ChessBot.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/ChessBot.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/ChessBot.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/ChessBot.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/ChessBot.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/ChessBot.dir/includes_CXX.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/ChessBot.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/ChessBot.dir/linklibs.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/ChessBot.dir/main.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/ChessBot.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/ChessBot.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/ChessBot.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/ChessBot_autogen.dir/AutogenInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/ChessBot_autogen.dir/AutogenOldSettings.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/ChessBot_autogen.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/ChessBot_autogen.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/ChessBot_autogen.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/ChessBot_autogen.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/ChessBot_autogen.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/ChessBot_autogen.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/ChessBot.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/ChessBot_autogen/mocs_compilation.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot-build/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot/CMakeLists.txt.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionCppa/ChessBot/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionJava/AutoChess/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionJava/AutoChess/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionJava/AutoChess/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionJava/AutoChess/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionJava/AutoChess/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionJava/AutoChess/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionJava/AutoChess/AutoChess.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionJava/AutoChess/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionPy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../VersionPy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionPy/Web.py" beforeDir="false" afterPath="$PROJECT_DIR$/../VersionPy/Web.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VersionPy/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/../VersionPy/geckodriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium_chess.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_chess.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -185,17 +16,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PythonChessBot$main.coverage" NAME="main Coverage Results" MODIFIED="1549740546944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonChessBot$main.coverage" NAME="main Coverage Results" MODIFIED="1551033208737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="115" column="104" selection-start-line="115" selection-start-column="104" selection-end-line="115" selection-end-column="104" />
+            <state relative-caret-position="80">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#1#12#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -204,22 +44,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/selenium_chess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="76" column="51" selection-start-line="76" selection-start-column="51" selection-end-line="76" selection-end-column="51" />
+            <state relative-caret-position="304">
+              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/selenium_canvas.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="112" column="31" selection-start-line="112" selection-start-column="31" selection-end-line="112" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -229,25 +57,7 @@
         <entry file="file://$PROJECT_DIR$/constants.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js_classes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vec2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -266,7 +76,19 @@
       <find>new_</find>
       <find>canvases</find>
       <find>contexts</find>
+      <find>Vec2</find>
+      <find>find_element</find>
+      <find>multipv</find>
+      <find>engine_moves</find>
+      <find>engine_scores</find>
+      <find>except</find>
+      <find>login</find>
     </findStrings>
+    <replaceStrings>
+      <replace>moves</replace>
+      <replace>self.engine_scores</replace>
+      <replace>main_ctx_name</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -278,8 +100,9 @@
         <option value="$PROJECT_DIR$/js_classes.py" />
         <option value="$PROJECT_DIR$/selenium_canvas.py" />
         <option value="$PROJECT_DIR$/selenium_chess.py" />
-        <option value="$PROJECT_DIR$/constants.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/constants.py" />
+        <option value="$PROJECT_DIR$/bot.py" />
       </list>
     </option>
   </component>
@@ -295,7 +118,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -307,6 +129,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -314,7 +137,7 @@
     <property name="last_opened_file_path" value="D:/Code/Python/python.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -369,22 +192,25 @@
       <updated>1549715315786</updated>
       <workItem from="1549715320810" duration="17419000" />
       <workItem from="1549738317627" duration="3654000" />
+      <workItem from="1551032423196" duration="304000" />
+      <workItem from="1551032746591" duration="1477000" />
+      <workItem from="1551487512067" duration="3859000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21073000" />
+    <option name="totallyTimeSpent" value="26713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11673774" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.119936034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3707165" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24091381" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -413,17 +239,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="241" selection-start-line="241" selection-end-line="241" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/chess/uci.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="71">
           <caret line="1132" column="4" selection-start-line="1132" selection-start-column="4" selection-end-line="1132" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/remote/webelement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="543" column="12" selection-start-line="543" selection-start-column="12" selection-end-line="543" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -436,41 +262,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Vec2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="320" selection-start-line="320" selection-end-line="320" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/remote/webelement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="543" column="12" selection-start-line="543" selection-start-column="12" selection-end-line="543" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium_chess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="76" column="51" selection-start-line="76" selection-start-column="51" selection-end-line="76" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="188">
+          <caret line="359" selection-start-line="359" selection-end-line="359" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/selenium_canvas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="112" column="31" selection-start-line="112" selection-start-column="31" selection-end-line="112" selection-end-column="31" />
+        <state relative-caret-position="312">
+          <caret line="101" column="19" selection-start-line="101" selection-start-column="19" selection-end-line="101" selection-end-column="19" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_chess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -478,16 +304,23 @@
     <entry file="file://$PROJECT_DIR$/constants.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="115" column="104" selection-start-line="115" selection-start-column="104" selection-end-line="115" selection-end-column="104" />
+        <state relative-caret-position="80">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#1#12#0" expanded="true" />
           </folding>
         </state>
       </provider>

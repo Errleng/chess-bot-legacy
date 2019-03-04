@@ -9,8 +9,9 @@ class Side(Enum):
 
 DRAW_TYPE = 'arrow'
 
-USE_MULTIPV = True
+USING_MULTIPV = True
 MULTIPV_MOVE_COUNT = 2
+MULTIPV_ALPHA_STEP = 1 / MULTIPV_MOVE_COUNT
 MULTIPV_MOVE_COLOURS = ["'red'", "'salmon'", "'darkred'"]
 
 START_URL = 'https://www.chess.com/login_and_go?returnUrl=https%3A//www.chess.com/register'

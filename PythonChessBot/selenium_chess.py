@@ -51,6 +51,15 @@ class SeleniumChess:
             except NoSuchElementException:  # Not white or black
                 return Side.NEITHER
 
+    def get_selected_move(self):
+        try:
+            selected_move = self.driver.find_element_by_xpath(
+                "//span[@class='{0}']".format(self.patterns['selected_move']))
+            return selected_move.text
+        except NoSuchElementException:
+            print('Latest move not found')
+        return None
+
     def get_move_list(self):
         moves = []
         try:
