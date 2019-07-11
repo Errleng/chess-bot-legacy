@@ -683,3 +683,327 @@ ne 332
 [
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1555544105767	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "D:\\TEMP\\rust_mozprofile.GniBRrHBuGnd"
+1555544106723	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555544106875	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555544106875	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555544112524	Marionette	INFO	Listening on port 51705
+1555544113257	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+[Parent 6540, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 4320, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 4320, C1555544393756	Marionette	INFO	Stopped listening on port 51705
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1555545628988	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "D:\\TEMP\\rust_mozprofile.M2maigv112pI"
+1555545629576	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555545629577	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555545629577	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555545636643	Marionette	INFO	Listening on port 61564
+1555545636736	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7204, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1555545721221	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "D:\\TEMP\\rust_mozprofile.RK0Jgr55A6yG"
+1555545721678	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555545721679	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555545721679	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555545725258	Marionette	INFO	Listening on port 61762
+1555545725550	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 13512, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1555545896376	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "D:\\TEMP\\rust_mozprofile.zfclePJvbJLN"
+1555545896783	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555545896783	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555545896783	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555545900285	Marionette	INFO	Listening on port 61999
+1555545900692	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1555546158998	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "D:\\TEMP\\rust_mozprofile.1q8ikPg1afbK"
+1555546159508	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555546159509	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555546159509	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555546163431	Marionette	INFO	Listening on port 53583
+1555546163926	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 13840, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1555546409160	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "D:\\TEMP\\rust_mozprofile.1ZTb4kol77vr"
+1555546409711	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555546409711	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555546409711	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555546414195	Marionette	INFO	Listening on port 63295
+1555546414588	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 14128, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1555546481189	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "D:\\TEMP\\rust_mozprofile.NGWyNkOHPJ7S"
+1555546481936	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555546481937	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555546481937	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555546485075	Marionette	INFO	Listening on port 59399
+1555546485525	Marionette	WARN	TLS certificate errors will be ignored for this session
+1555546761400	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "D:\\TEMP\\rust_mozprofile.q3b0BAbWwt8G"
+1555546763738	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555546763739	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555546763739	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Parent 6832, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 12164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 1211555546773830	Marionette	INFO	Listening on port 60958
+1555546774088	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 6832, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1555546840107	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "D:\\TEMP\\rust_mozprofile.jduHdnddjD2t"
+1555546841465	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555546841466	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555546841467	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Parent 11552, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11476, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11476, Chrome_ChildTh1555546847541	Marionette	INFO	Listening on port 61141
+1555546847828	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 11552, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+JavaScript error: https://fw.adsafeprotected.com/rjss/www.googletagservices.com/263247/34739275/dcm/dcmads.js?adsafe_preview=&adsafe_pb=https%3A%2F%2Fadserver.adtechus.com%2Faddyn%2F3.0%2F5399.1%2F2791063%2F0%2F154%2FADTECH%3Bloc%3D100%3Btarget%3D_blank%3Bsub1%3DKL51iiWFUocdul6ENLN5nhyzJ_cEo_zjj74=%3Bsub2%3Dp-tTB93UFC5vepM%3B&gdpr=0&gdpr_consent=, line 910: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/3797665/1551218082055/160x600.js, line 280: TypeError: this.clicktagbtn is undefined
+JavaScript error: https://fw.adsafeprotected.com/rjss/www.googletagservices.com/233664/32291305/dcm/dcmads.js?adsafe_preview=&adsafe_pb=https%3A%2F%2Fadserver.adtechus.com%2Faddyn%2F3.0%2F5399.1%2F2791063%2F0%2F154%2FADTECH%3Bloc%3D100%3Btarget%3D_blank%3Bsub1%3DAAueXTYWuVIzFL1QIQybSAog1V4XMHZ9Rzc=%3Bsub2%3Dp-3eN-KnpwQqheA%3B&gdpr=0&gdpr_consent=, line 910: NS_ERROR_NOT_INITIALIZED: 
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1555547986068	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "D:\\TEMP\\rust_mozprofile.QfgtzNBwyqxw"
+1555547986466	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555547986466	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555547986466	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555547990139	Marionette	INFO	Listening on port 56889
+1555547990397	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 10404, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1555548089144	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "D:\\TEMP\\rust_mozprofile.BMv6WhwJa7z9"
+1555548089546	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555548089546	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555548089546	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Parent 4480, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 1544, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 1544, Chrome_ChildThread] WARNING1555548093062	Marionette	INFO	Listening on port 57082
+1555548093479	Marionette	WARN	TLS certificate errors will be ignored for this session
+1555548233018	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "D:\\TEMP\\rust_mozprofile.Foo5n93FI3C9"
+1555548233602	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555548233602	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555548233603	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555548237108	Marionette	INFO	Listening on port 56839
+1555548237350	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1555548512902	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "D:\\TEMP\\rust_mozprofile.qAILaPr5myvK"
+1555548513358	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555548513358	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555548513358	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555548516929	Marionette	INFO	Listening on port 59065
+1555548517260	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 15172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1555548628754	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "D:\\TEMP\\rust_mozprofile.0g5L0O8QwAb0"
+1555548629259	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555548629259	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555548629259	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Child 11040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11040, Chrome1555548633086	Marionette	INFO	Listening on port 49844
+1555548633189	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://fw.adsafeprotected.com/rjss/www.googletagservices.com/233664/32291305/dcm/dcmads.js?adsafe_preview=&adsafe_pb=https%3A%2F%2Fadserver.adtechus.com%2Faddyn%2F3.0%2F5399.1%2F2791063%2F0%2F154%2FADTECH%3Bloc%3D100%3Btarget%3D_blank%3Bsub1%3DW5t8m2WGW5tChn2cept9gGSgLI9mlkGGQYE=%3Bsub2%3Dp-3eN-KnpwQqheA%3B&gdpr=0&gdpr_consent=, line 910: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://fw.adsafeprotected.com/rjss/www.googletagservices.com/263247/34739275/dcm/dcmads.js?adsafe_preview=&adsafe_pb=https%3A%2F%2Fadserver.adtechus.com%2Faddyn%2F3.0%2F5399.1%2F2791063%2F0%2F154%2FADTECH%3Bloc%3D100%3Btarget%3D_blank%3Bsub1%3DFoPCbzuo5WoWuc9oJ47hfSG4x1gfnkrMQvI=%3Bsub2%3Dp-tTB93UFC5vepM%3B&gdpr=0&gdpr_consent=, line 910: NS_ERROR_NOT_INITIALIZED: 
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+JavaScript error: https://fw.adsafeprotected.com/rjss/dc/212839/30997635/ddm/adj/N307601.3074700QUANTCAST_USA_307/B21848873.232211909;dcopt=;sz=160x600;click=https://adclick.g.doubleclick.net/aclk?sa=l&ai=C-tJzqs23XNL7IJy1zwX_1bfoAt_Q1LBNpsS3lq8BwI23ARABIABgyYaAgICAgBCCARdjYS1wdWItNzMxMzEwODkyMjU4MjQyMqAB0JTA8wPIAQngAgCoAwGqBLEBT9DLKlljlFQQBdM2JqpXys14mMt1M12HM4CHXuiC39N-KW8w915eLK-IvMWvCCPPliDzqBIHmjn79bYyRXQFoE6_66VY-PF2oD4UQVhXRj1dt8QC06YTqvVdFjRTKv9a_cmcV181LPMHTmOEJYSjUNOrA8WREIMW8XuTUs07LVM6ISHndLa83MrGNxtb-NSqrBuuHJhJ9skmfFgvW0pxDBtcNCCPHVyqJIu8JAWROJ2e4AQBgAaFpJb7-LPc9jygBiGoB6a-G6gH2csbqAfPzBvYBwDSCAUIgGEQAQ&num=1&sig=AOD64_2edfwo-UPP9896q4Hfj7_ijW-fIQ&client=ca-pub-7313108922582422&adurl=http%3A%2F%2Fexch.quantserve.com%2Fr%3Fa%3Dp-kD64gkL19wDhS%3Blabels%3D_qc.clk%2C_click.adserver.rtb%2C_click.rand.78488%3Brtbip%3D192.184.72.56%3Brtbdata2%3DEAAaJ1REX0JhbmtfQ2hlY2tpbmdfQWNjb3VudF9Ob3ZfT2N0X0ZZMTgxOSCZvisonZ4gMOfFWToVaHR0cHM6Ly93d3cuY2hlc3MuY29tWihPUnJMdlc5QXpMTWhTc3JwYWtpRTcyOGNtYndoSDVtLVBoMnhxcGxIdT4NCECAAdOn0q4LoAEBqAGK85gEugEdQ0FFU0VIaWs0dzZ5NjlKbnlVY3Q1U2NFTlVrOjHAAdKqA8gB4MTt76It2gEWWExmTnFnQUlQZElLczlxY0xRM3Ffd-UBjPioPOgBZJgCir0msAIIugIEwLhIOMACAsgCANAC4Ojb04yY0-2ZAeACAOgCAPgCAIoDFjEucHViLTczMTMxMDg5MjI1ODI0MjKSAwExmAMAqAMCsgMEbDsAAA%3Bgdpr%3D0%3Bgdpr_consent%3DBAAAAAAAAAAAAABABBktCN6AAAAAEA%3Bredirecturl2%3D;ord=515000;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?adsafe_preview=&adsafe_pb=https%3A%2F%2Fadserver.adtechus.com%2Faddyn%2F3.0%2F5399.1%2F2791063%2F0%2F154%2FADTECH%3Bloc%3D100%3Btarget%3D_blank%3Bsub1%3DxErDpO1h5KPMYuyh7z_UidBXlpvDcYx4UOc=%3Bsub2%3Dp-kD64gkL19wDhS%3B&gdpr=0&gdpr_consent=BAAAAAAAAAAAAABABBktCN6AAAAAEA, line 910: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://fw.adsafeprotected.com/rjss/bs.serving-sys.com/232961/34456523/Serving/adServer.bs?ncu=$$click=$$&c=28&cn=display&pli=1074574931&w=160&h=600&ord=[timestamp]&z=0&ncu=https://adclick.g.doubleclick.net/aclk%3Fsa%3Dl%26ai%3DCNcOLIs63XNSYI9WJ3QGXhYPwA9_Q1LBNpsS3lq8BwI23ARABIABgyYaAgICAgBCCARdjYS1wdWItNzMxMzEwODkyMjU4MjQyMqAB0JTA8wPIAQngAgCoAwGqBLEBT9AAU_FAI1VNFiyA7vKmnX3gVtBHvfJdooWm3plJ-IWnUJ0yqBEVhPRR63JI7Wvberfgat-WH9VUoOoprnbHNbr8x7OyG2_EQRDaf5r4FTVyl0W3ISNL_vyHBiT6tC37ZvZgYg_CU9A1nUCp5ZN1vHo7K8LOvVbut3xZljad2fwM8i_OvpbbObLNdtPhZeuIrqdbqwEqeIDp0oXaXy_E_yyYB9NozdMEP7qEhxKrWYNd4AQBgAby3NG79rLds8ABoAYhqAemvhuoB9nLG6gHz8wb2AcA0ggFCIBhEAE%26num%3D1%26sig%3DAOD64_0i0feDSw9LkDmQio1W30TXSW9ASA%26client%3Dca-pub-7313108922582422%26adurl%3Dhttp%3A%2F%2Fexch.quantserve.com%2Fr%3Fa%3Dp-Xn6hdjqbS6tdf%26labels%3D_qc.clk%2C_click.adserver.rtb%2C_click.rand.2468%26rtbip%3D192.184.72.167%26rtbdata2%3DEAAaHFBPRFNfMjAxOV9RMl9Db3JwX09wc19Nb3Zpbmcg2-IsKNa4IjCi9V86FWh0dHBzOi8vd3d3LmNoZXNzLmNvbVooT1JyTHZXOUF6TE1oU3NycGFraUU3MjhjbWJ3aEg1bS1QaDJ4cXBsSHU_JI8-gAH4l6HiDKABAagBivOYBLoBHUNBRVNFSGlrNHc2eTY5Sm55VWN0NVNjRU5VazoxwAHYmALIAdLu9O-iLdoBFlhMZk9JZ0FJekZRS04wVFZQZ0RDbHflARjoEjzoAWSYAtXdKLACCLoCBMC4SKfAAgLIAgDQAp_1z_e05uj4T-ACAOgCAPgCAIoDFjEucHViLTczMTMxMDg5MjI1ODI0MjKSAwExmAMAqAMCsgMEbDsAAA%26gdpr%3D0%26gdpr_consent%3DBAAAAAAAAAAAAABABBktCN6AAAAAEA%26redirecturl2%3D&ucm=true&adsafe_preview=&adsafe_pb=https%3A%2F%2Fadserver.adtechus.com%2Faddyn%2F3.0%2F5399.1%2F2791063%2F0%2F154%2FADTECH%3Bloc%3D100%3Btarget%3D_blank%3Bsub1%3DZspiJHfhRSJEwFUgcLZQPW7hQChS8WHd0Wc=%3Bsub2%3Dp-Xn6hdjqbS6tdf%3B&gdpr=0&gdpr_consent=BAAAAAAAAAAAAABABBktCN6AAAAAEA, line 910: NS_ERROR_NOT_INITIALIZED: 
+1555549817154	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "D:\\TEMP\\rust_mozprofile.GY1G8H1JOUbv"
+1555549817582	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555549817582	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555549817582	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555549821711	Marionette	INFO	Listening on port 58271
+1555549822095	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 6324, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+[Child 15356, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 15356, Chrome_ChildThread] WARNING1555550140156	Marionette	INFO	Stopped listening on port 58271
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GP
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1555813332782	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "D:\\TEMP\\rust_mozprofile.H8lyHwAGc1Lo"
+1555813333227	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555813333228	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555813333228	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555813337155	Marionette	INFO	Listening on port 60287
+1555813337341	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1555814391640	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "D:\\TEMP\\rust_mozprofile.IiHY8cAnQ9Ap"
+1555814393820	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555814393821	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555814393822	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555814403746	Marionette	INFO	Listening on port 56949
+1555814403945	Marionette	WARN	TLS certificate errors will be ignored for this session
+1555814498101	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "D:\\TEMP\\rust_mozprofile.4htQ5tJLRi7a"
+1555814499878	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555814499879	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555814499879	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555814507540	Marionette	INFO	Listening on port 57132
+1555814507971	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 10128, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1555814651290	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "D:\\TEMP\\rust_mozprofile.5TGhDbbRcdU3"
+1555814653431	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555814653432	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555814653432	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555814661396	Marionette	INFO	Listening on port 57316
+1555814661780	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1555814972262	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "D:\\TEMP\\rust_mozprofile.Tab8de4Na58G"
+1555814974444	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555814974445	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555814974445	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555814982114	Marionette	INFO	Listening on port 57573
+1555814982140	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+JavaScript error: https://s0.2mdn.net/ads/richmedia/studio/pv2/60628904/20180406114311842/index.html?e=69&renderingType=2&leftOffset=0&topOffset=0&c=FTCKoO39w1&t=1, line 144: SyntaxError: identifier starts immediately after numeric literal
+[Child 3080, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 61: TypeError: this.mm.content is null
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+[Parent 12828, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 7036, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 7036, Chrome_ChildThread] WARNING: pipe error: 109: file z:/b[Parent 12828, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1555817405437	Marionette	INFO	Stopped listening on port 57573
+[GP
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
