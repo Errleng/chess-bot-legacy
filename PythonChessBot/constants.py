@@ -1,7 +1,5 @@
 from enum import Enum
 
-import chess.engine
-
 
 class Side(Enum):
     WHITE = 1
@@ -12,7 +10,7 @@ class Side(Enum):
 DRAW_TYPE = 'arrow'
 
 USING_MULTIPV = True
-MULTIPV_MOVE_COUNT = 3
+MULTIPV_MOVE_COUNT = 2
 MULTIPV_ALPHA_STEP = 1 / MULTIPV_MOVE_COUNT
 MULTIPV_MOVE_COLOURS = ["'red'", "'salmon'", "'darkred'"]
 
@@ -30,8 +28,4 @@ ENGINE_NAMES = {
 }
 ENGINE_RELATIVE_DIRECTORY = '../Engines'
 ENGINE_NAME = ENGINE_NAMES['stockfish']
-
-ENGINE_SEARCH_PLY = 8
-ENGINE_LIMIT = chess.engine.Limit(depth=ENGINE_SEARCH_PLY)
-
-FULL_SCRAPE_LIMIT = 100
+ENGINE_SEARCH_DEPTH = 6

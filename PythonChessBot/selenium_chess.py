@@ -1,9 +1,8 @@
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException
-
 from Vec2 import Vec2
-from constants import Side
 from selenium_canvas import SeleniumCanvas
+from constants import Side
 
 
 class SeleniumChess:
@@ -67,13 +66,11 @@ class SeleniumChess:
             moves = self.driver.find_elements_by_xpath("//span[@class='{0}']".format(self.patterns['move']))
         except NoSuchElementException:
             print('No move elements found')
-
         try:
             last_move = self.driver.find_element_by_xpath("//span[@class='{0}']".format(self.patterns['selected_move']))
             moves.append(last_move)
         except NoSuchElementException:
             print('Last/Selected move not found')
-
         try:
             move_list = [e.text for e in moves]
             return move_list
